@@ -1,9 +1,13 @@
 import type {
   Account,
+  DecayAnchor,
+  Family,
   Iso,
   Observation,
   ObservedItem,
   ObservedState,
+  Signal,
+  SignalType,
   Watchlist,
 } from "./types";
 
@@ -99,6 +103,40 @@ export function observations(
   ...entries: [Iso, Partial<ObservedState>, ObservedItem[]?][]
 ): Observation[] {
   return entries.map(([date, state, items]) => observation(date, state, items ?? []));
+}
+
+/**
+ * A signal built directly, for tests about decay and scoring rather than detection.
+ * `raw` is signed here — this bypasses the watchlist lookup on purpose, so a scoring test
+ * does not break when a weight is retuned.
+ */
+export function makeSignal(fields: {
+  type: SignalType;
+  family: Family;
+  subject?: string;
+  raw: number;
+  anchor_at: Iso;
+  anchor?: DecayAnchor;
+  known_within_days?: number;
+  magnitude?: number | null;
+}): Signal {
+  const direction = fields.raw < 0 ? "negative" : "positive";
+  return {
+    key: `${TEST_ACCOUNT.id}:${fields.type}:${fields.subject ?? fields.type}`,
+    account_id: TEST_ACCOUNT.id,
+    type: fields.type,
+    family: fields.family,
+    subject: fields.subject ?? fields.type,
+    direction,
+    weight_key: fields.type,
+    raw: fields.raw,
+    anchor: fields.anchor ?? "changed_at",
+    anchor_at: fields.anchor_at,
+    known_within_days: fields.known_within_days ?? 0,
+    magnitude: fields.magnitude ?? null,
+    evidence: [{ observed_at: fields.anchor_at, note: "test evidence" }],
+    detail: "test signal",
+  };
 }
 
 export function jobPost(observed_at: Iso, title: string, department: string | null = null): ObservedItem {

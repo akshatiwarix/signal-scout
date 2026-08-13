@@ -10,7 +10,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "sweep": "node --experimental-strip-types scripts/sweep.mts",
+    "sweep": "vite-node scripts/sweep.mts",
     "generate:dataset": "node --experimental-strip-types scripts/generate-dataset.mts"
   },
   "dependencies": {
@@ -29,6 +29,7 @@
     "eslint-config-next": "16.3.0",
     "tailwindcss": "^4",
     "typescript": "^5",
+    "vite-node": "^6.0.0",
     "vitest": "^4.1.10"
   }
 }

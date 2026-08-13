@@ -28,16 +28,30 @@ import type {
   ObservedState,
 } from "../lib/signals/types.ts";
 
-// Eight crawl dates over roughly six months. Deliberately uneven — a real crawler
-// does not run on the 1st of the month, and even spacing would hide the gap logic.
+/**
+ * Twelve crawl dates over roughly six months: fortnightly, tightening to weekly at the
+ * end, with one deliberate month-long stretch in the middle.
+ *
+ * The cadence is load-bearing, not decoration. Because a state change is anchored at the
+ * *previous* crawl (the earliest moment it could have happened), the crawl interval is a
+ * floor on how old any change can appear: crawl monthly and nothing is ever less than
+ * ~30 days old, which against a 30-day half-life means no signal can ever show more than
+ * half its weight. That is a true statement about monthly crawling, and it would make the
+ * whole board read as if the scale were broken. Fortnightly crawling is just as plausible
+ * and lets a fresh change look fresh.
+ */
 const DATES = [
   "2026-02-20",
+  "2026-03-06",
   "2026-03-20",
+  "2026-04-03",
   "2026-04-17",
+  "2026-05-01",
   "2026-05-15",
   "2026-06-12",
   "2026-07-10",
-  "2026-07-31",
+  "2026-07-24",
+  "2026-08-05",
   "2026-08-12",
 ] as const;
 
@@ -205,16 +219,18 @@ const ENGINEERED: Recipe[] = [
       tagline: "Ship faster",
     }),
     mutate: {
-      4: { tagline: "Ship faster, together", homepage_hash: "home-2" },
-      5: { homepage_hash: "home-3" },
-      6: { tagline: "The platform for shipping", homepage_hash: "home-4", pricing_page_hash: "price-2" },
-      7: { homepage_hash: "home-5" },
+      8: { tagline: "Ship faster, together", homepage_hash: "home-2" },
+      9: { homepage_hash: "home-3" },
+      10: { tagline: "The platform for shipping", homepage_hash: "home-4", pricing_page_hash: "price-2" },
+      11: { homepage_hash: "home-5" },
     },
+    // Clustered into the last six weeks on purpose. Spread thinly across six months,
+    // decay alone would flatten them and the family cap would never have to do anything —
+    // and the cap is the rule this row exists to demonstrate.
     items: {
-      4: releases(DATES[3], DATES[4], ["Loudwave 3.0", "Inline previews"]),
-      5: releases(DATES[4], DATES[5], ["Workspace themes"]),
-      6: releases(DATES[5], DATES[6], ["Loudwave AI beta", "New onboarding"]),
-      7: releases(DATES[6], DATES[7], ["Mobile app"]),
+      9: releases(DATES[8], DATES[9], ["Loudwave 3.0"]),
+      10: releases(DATES[9], DATES[10], ["Inline previews", "Workspace themes"]),
+      11: releases(DATES[10], DATES[11], ["Loudwave AI beta", "Mobile app"]),
     },
   },
 
@@ -230,16 +246,16 @@ const ENGINEERED: Recipe[] = [
       tagline: "Operations software for plants",
     }),
     mutate: {
-      5: {
+      9: {
         headcount: 262,
         execs: [seat("product", "VP Product"), seat("sales", "CRO"), seat("engineering", "VP Engineering")],
       },
-      7: { headcount: 288 },
+      11: { headcount: 288 },
     },
     items: {
-      5: jobPosts(DATES[4], DATES[5], "engineering", 5),
-      6: jobPosts(DATES[5], DATES[6], "engineering", 3),
-      7: jobPosts(DATES[6], DATES[7], "data", 2),
+      9: jobPosts(DATES[8], DATES[9], "engineering", 5),
+      10: jobPosts(DATES[9], DATES[10], "engineering", 3),
+      11: jobPosts(DATES[10], DATES[11], "data", 2),
     },
   },
 
@@ -267,7 +283,7 @@ const ENGINEERED: Recipe[] = [
       execs: [seat("engineering", "VP Engineering"), seat("operations", "COO")],
       tagline: "Retail operations, simplified",
     }),
-    mutate: { 5: { headcount: 182 }, 7: { headcount: 176 } },
+    mutate: { 10: { headcount: 182 }, 11: { headcount: 176 } },
   },
 
   // a005 — an 89-day hole. The round is real; the date it landed is not knowable.
@@ -281,8 +297,8 @@ const ENGINEERED: Recipe[] = [
       execs: [seat("engineering", "VP Engineering")],
       tagline: "Pipelines without the plumbing",
     }),
-    absent: [4, 5, 6],
-    mutate: { 7: { funding_stage: "series_b", funding_total_usd: 48_000_000, headcount: 138 } },
+    absent: [7, 8, 9, 10],
+    mutate: { 11: { funding_stage: "series_b", funding_total_usd: 48_000_000, headcount: 138 } },
   },
 
   // a006 — first seen at crawl 5. Must emit nothing that day, however different it
@@ -297,8 +313,8 @@ const ENGINEERED: Recipe[] = [
       execs: [seat("engineering", "VP Engineering"), seat("data", "Head of Data")],
       tagline: "Autonomy for warehouses",
     }),
-    absent: [0, 1, 2, 3],
-    mutate: { 6: { stack: ["Terraflow", "Warehowse"] } },
+    absent: [0, 1, 2, 3, 4, 5, 6],
+    mutate: { 9: { stack: ["Terraflow", "Warehowse"] } },
   },
 
   // a007 — escalation. Four posts, then fourteen: the same subject, materially bigger.
@@ -313,9 +329,9 @@ const ENGINEERED: Recipe[] = [
       tagline: "Freight, coordinated",
     }),
     items: {
-      3: jobPosts(DATES[2], DATES[3], "engineering", 4),
-      5: jobPosts(DATES[4], DATES[5], "engineering", 14),
-      6: jobPosts(DATES[5], DATES[6], "engineering", 6),
+      6: jobPosts(DATES[5], DATES[6], "engineering", 4),
+      9: jobPosts(DATES[8], DATES[9], "engineering", 14),
+      10: jobPosts(DATES[9], DATES[10], "engineering", 6),
     },
   },
 
@@ -331,7 +347,7 @@ const ENGINEERED: Recipe[] = [
       execs: [seat("engineering", "CTO"), seat("finance", "VP Finance")],
       tagline: "Ledgers for embedded finance",
     }),
-    mutate: { 3: { funding_stage: "series_a", funding_total_usd: 26_000_000, headcount: 88 } },
+    mutate: { 7: { funding_stage: "series_a", funding_total_usd: 26_000_000, headcount: 88 } },
   },
 
   // a009 — stale, not quiet. Everything it ever did is past the Market horizon.
@@ -345,8 +361,8 @@ const ENGINEERED: Recipe[] = [
       execs: [seat("marketing", "CMO")],
       tagline: "Stories that travel",
     }),
-    mutate: { 1: { tagline: "Stories, everywhere", homepage_hash: "home-2" } },
-    items: { 1: releases(DATES[0], DATES[1], ["Mistveil Reader"]) },
+    mutate: { 2: { tagline: "Stories, everywhere", homepage_hash: "home-2" } },
+    items: { 2: releases(DATES[1], DATES[2], ["Mistveil Reader"]) },
   },
 
   // a010 / a011 — the displacement pair. Identical accounts, same crawl, one drops
@@ -361,7 +377,7 @@ const ENGINEERED: Recipe[] = [
       execs: [seat("data", "VP Data"), seat("engineering", "VP Engineering")],
       tagline: "Analytics for operators",
     }),
-    mutate: { 5: { stack: ["Warehowse", "Terraflow"] } },
+    mutate: { 10: { stack: ["Warehowse", "Terraflow"] } },
   },
   {
     account: account("a011", "Kestrel Payments", "Payments", 83),
@@ -373,7 +389,7 @@ const ENGINEERED: Recipe[] = [
       execs: [seat("data", "VP Data"), seat("engineering", "VP Engineering")],
       tagline: "Payments for operators",
     }),
-    mutate: { 5: { stack: ["Warehowse", "Terraflow", "Rivalytics"] } },
+    mutate: { 10: { stack: ["Warehowse", "Terraflow", "Rivalytics"] } },
   },
 ];
 
@@ -452,7 +468,7 @@ function middleRecipe(index: number): Recipe {
   // list looks like and what keeps `quiet` from feeling like a bug.
   if (rand() > 0.8) return { account: account(id, name, industry, fit), base, mutate, items };
 
-  const at = 2 + Math.floor(rand() * 5); // crawl index 2..6
+  const at = 3 + Math.floor(rand() * 8); // crawl index 3..10
   const roll = rand();
 
   if (roll < 0.2) {

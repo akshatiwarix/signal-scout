@@ -254,7 +254,17 @@ export interface DecayedSignal extends Signal {
   decayed: number;
 }
 
-export type DropReason = "past_horizon" | "clipped_by_cap" | "not_relevant";
+/**
+ * Why a signal is on the board but not in the score. `rounds_to_zero` is kept separate
+ * from `past_horizon` because they are different facts: one is "too old to count", the
+ * other is "still inside the horizon, but worth less than a point". Collapsing them would
+ * tell a user their signal expired when it has not.
+ */
+export type DropReason =
+  | "past_horizon"
+  | "rounds_to_zero"
+  | "clipped_by_cap"
+  | "not_relevant";
 
 export interface DroppedSignal {
   signal: Signal;

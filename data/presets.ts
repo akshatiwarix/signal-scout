@@ -52,7 +52,7 @@ export const DISPLACEMENT_MOTION: Watchlist = {
   relevant_functions: ["engineering", "data", "it", "security"],
   competitor_tools: [...COMPETITORS],
   complement_tools: [...COMPLEMENTS],
-  act_now_at: 40,
+  act_now_at: 18,
 };
 
 export const GROWTH_MOTION: Watchlist = {
@@ -82,7 +82,7 @@ export const GROWTH_MOTION: Watchlist = {
   relevant_functions: ["engineering", "data", "revops", "people"],
   competitor_tools: [...COMPETITORS],
   complement_tools: [...COMPLEMENTS],
-  act_now_at: 45,
+  act_now_at: 20,
 };
 
 export const BUDGET_MOTION: Watchlist = {
@@ -112,7 +112,7 @@ export const BUDGET_MOTION: Watchlist = {
   relevant_functions: ["finance", "revops", "operations", "engineering"],
   competitor_tools: [...COMPETITORS],
   complement_tools: [...COMPLEMENTS],
-  act_now_at: 35,
+  act_now_at: 16,
 };
 
 export const PRESETS: Watchlist[] = [DISPLACEMENT_MOTION, GROWTH_MOTION, BUDGET_MOTION];

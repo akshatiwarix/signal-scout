@@ -30,9 +30,9 @@ function jobPostCount(observation: Observation): number {
 }
 
 describe("dataset shape", () => {
-  it("is 40 accounts over 8 crawl dates", () => {
+  it("is 40 accounts over 12 crawl dates", () => {
     expect(ACCOUNTS).toHaveLength(40);
-    expect(CRAWL_DATES).toHaveLength(8);
+    expect(CRAWL_DATES).toHaveLength(12);
     expect(DEFAULT_AS_OF).toBe("2026-08-12");
     expect(daysBetween(CRAWL_DATES[0]!, DEFAULT_AS_OF)).toBe(173);
   });
@@ -78,23 +78,25 @@ describe("the ten engineered rows", () => {
 
     const hashes = new Set(observations.map((observation) => observation.state.homepage_hash));
     expect(hashes.size).toBeGreaterThanOrEqual(4);
+    // Clustered late, so the family cap has to do the work rather than decay.
+    expect(releases.filter((item) => item.observed_at >= "2026-07-01").length).toBeGreaterThanOrEqual(4);
 
     // …and nothing in the families that would justify the attention.
     expect(observations.every((observation) => jobPostCount(observation) === 0)).toBe(true);
   });
 
   it("a002 gains an engineering seat and then hires behind it", () => {
-    const before = at("a002", 4).state.execs.map((seat) => seat.fn);
-    const after = at("a002", 5).state.execs.map((seat) => seat.fn);
+    const before = at("a002", 8).state.execs.map((seat) => seat.fn);
+    const after = at("a002", 9).state.execs.map((seat) => seat.fn);
     expect(before).not.toContain("engineering");
     expect(after).toContain("engineering");
-    expect(jobPostCount(at("a002", 5))).toBeGreaterThanOrEqual(5);
-    expect(at("a002", 5).state.headcount).toBeGreaterThan(at("a002", 4).state.headcount!);
+    expect(jobPostCount(at("a002", 9))).toBeGreaterThanOrEqual(5);
+    expect(at("a002", 9).state.headcount).toBeGreaterThan(at("a002", 8).state.headcount!);
   });
 
   it("a003 is the best fit on the board and has never done anything", () => {
     const observations = forAccount("a003");
-    expect(observations).toHaveLength(8);
+    expect(observations).toHaveLength(12);
     const account = ACCOUNTS.find((candidate) => candidate.id === "a003");
     expect(account?.fit.score).toBe(95);
 
@@ -108,16 +110,16 @@ describe("the ten engineered rows", () => {
   it("a004 is a strong fit that sheds 30% of its headcount", () => {
     const account = ACCOUNTS.find((candidate) => candidate.id === "a004");
     expect(account?.fit.band).toBe("strong");
-    const before = at("a004", 4).state.headcount!;
-    const after = at("a004", 5).state.headcount!;
+    const before = at("a004", 9).state.headcount!;
+    const after = at("a004", 10).state.headcount!;
     expect((before - after) / before).toBeGreaterThan(0.25);
   });
 
   it("a005 has an 89-day hole with a funding round somewhere inside it", () => {
     const observations = forAccount("a005");
-    expect(observations).toHaveLength(5);
-    const gapStart = observations[3]!;
-    const gapEnd = observations[4]!;
+    expect(observations).toHaveLength(8);
+    const gapStart = observations[6]!;
+    const gapEnd = observations[7]!;
     expect(daysBetween(gapStart.observed_at, gapEnd.observed_at)).toBe(89);
     expect(gapStart.state.funding_stage).toBe("series_a");
     expect(gapEnd.state.funding_stage).toBe("series_b");
@@ -125,24 +127,25 @@ describe("the ten engineered rows", () => {
 
   it("a006 is first observed at the fifth crawl", () => {
     const observations = forAccount("a006");
-    expect(observations).toHaveLength(4);
-    expect(observations[0]!.observed_at).toBe(CRAWL_DATES[4]);
+    expect(observations).toHaveLength(5);
+    expect(observations[0]!.observed_at).toBe("2026-06-12");
   });
 
   it("a007 escalates its hiring by more than the escalation factor", () => {
-    const first = jobPostCount(at("a007", 3));
-    const later = jobPostCount(at("a007", 5));
+    const first = jobPostCount(at("a007", 6));
+    const later = jobPostCount(at("a007", 9));
     expect(first).toBe(4);
     expect(later).toBe(14);
     expect(later / first).toBeGreaterThanOrEqual(2);
   });
 
   it("a008's round landed 89 days before the default as-of date", () => {
-    const before = at("a008", 2);
-    const after = at("a008", 3);
+    const before = at("a008", 6);
+    const after = at("a008", 7);
     expect(before.state.funding_stage).toBe("seed");
     expect(after.state.funding_stage).toBe("series_a");
-    expect(daysBetween(after.observed_at, DEFAULT_AS_OF)).toBe(89);
+    // Anchored at the crawl before, which is exactly 89 days before the default as-of.
+    expect(daysBetween(before.observed_at, DEFAULT_AS_OF)).toBe(89);
   });
 
   it("a009's only activity is far outside the market horizon", () => {
@@ -154,10 +157,10 @@ describe("the ten engineered rows", () => {
   });
 
   it("a010 and a011 are the same account with the same delta in opposite directions", () => {
-    const droppedBefore = at("a010", 4).state.stack;
-    const droppedAfter = at("a010", 5).state.stack;
-    const addedBefore = at("a011", 4).state.stack;
-    const addedAfter = at("a011", 5).state.stack;
+    const droppedBefore = at("a010", 9).state.stack;
+    const droppedAfter = at("a010", 10).state.stack;
+    const addedBefore = at("a011", 9).state.stack;
+    const addedAfter = at("a011", 10).state.stack;
 
     expect(droppedBefore).toContain("Rivalytics");
     expect(droppedAfter).not.toContain("Rivalytics");
@@ -167,6 +170,6 @@ describe("the ten engineered rows", () => {
     // Everything else about the pair matches, so the board's difference has exactly
     // one cause.
     expect(droppedAfter).toEqual(addedBefore);
-    expect(at("a010", 5).state.headcount).toBe(at("a011", 5).state.headcount);
+    expect(at("a010", 10).state.headcount).toBe(at("a011", 10).state.headcount);
   });
 });
