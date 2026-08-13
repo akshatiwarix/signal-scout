@@ -215,6 +215,34 @@ export interface Signal {
   detail: string;
 }
 
+/**
+ * What a detector emits, before identity is assigned. One detection is "I compared
+ * two things and noticed X"; a `Signal` is the folded, keyed, de-duplicated result.
+ *
+ * `rejected` carries a detector that looked and deliberately declined — a complement
+ * leaving the stack, a job post in a function nobody sells to. Those reach the board
+ * as `dropped` entries rather than vanishing, because "considered and dismissed" is
+ * information and an empty explanation is not.
+ */
+export interface Detection {
+  account_id: string;
+  type: SignalType;
+  family: Family;
+  subject: string;
+  direction: Direction;
+  weight_key: WeightKey;
+  /** The crawl date at which this became visible. Drives ordering, not decay. */
+  noticed_at: Iso;
+  anchor: DecayAnchor;
+  /** The date decay measures from — for state deltas, the earliest it could have happened. */
+  anchor_at: Iso;
+  known_within_days: number;
+  magnitude: number | null;
+  evidence: Evidence[];
+  detail: string;
+  rejected: string | null;
+}
+
 export interface DecayedSignal extends Signal {
   age_days: number;
   half_life_days: number;
