@@ -141,6 +141,24 @@ export const SIGNAL_TYPES = [
 
 export type SignalType = (typeof SIGNAL_TYPES)[number];
 
+/**
+ * Two detectors fire in both directions with different force, so the watchlist
+ * carries a second weight for the minority case rather than pretending a sign flip
+ * is enough. Losing an exec is a weaker trigger than gaining one; a competitor
+ * entering the stack hurts more than a complement entering helps.
+ *
+ * All weights are stored as positive magnitudes. `Signal.direction` applies the
+ * sign, so a user cannot invert the meaning of `headcount_contraction` by typing a
+ * positive number into it.
+ */
+export const WEIGHT_KEYS = [
+  ...SIGNAL_TYPES,
+  "exec_change_loss",
+  "stack_added_competitor",
+] as const;
+
+export type WeightKey = (typeof WEIGHT_KEYS)[number];
+
 export const SIGNAL_FAMILY: Record<SignalType, Family> = {
   funding_round: "money",
   exec_change: "people",
@@ -179,7 +197,9 @@ export interface Signal {
   /** What the signal is *about*: a tool name, a function, a funding stage, `headcount`. */
   subject: string;
   direction: Direction;
-  /** Weight from the watchlist, before decay. Negative for the two negative detectors. */
+  /** Which watchlist weight produced `raw` — shown in the breakdown, so the number is traceable. */
+  weight_key: WeightKey;
+  /** Signed weight before decay: the watchlist magnitude, negated when `direction` is negative. */
   raw: number;
   anchor: DecayAnchor;
   anchor_at: Iso;
@@ -288,7 +308,8 @@ export interface Thresholds {
 export interface Watchlist {
   name: string;
   families: Record<Family, FamilyConfig>;
-  weights: Record<SignalType, number>;
+  /** Positive magnitudes only. Direction supplies the sign — see `WEIGHT_KEYS`. */
+  weights: Record<WeightKey, number>;
   thresholds: Thresholds;
   relevant_functions: Fn[];
   competitor_tools: string[];

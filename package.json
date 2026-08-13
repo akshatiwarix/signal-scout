@@ -10,7 +10,8 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "sweep": "node --experimental-strip-types scripts/sweep.ts"
+    "sweep": "node --experimental-strip-types scripts/sweep.mts",
+    "generate:dataset": "node --experimental-strip-types scripts/generate-dataset.mts"
   },
   "dependencies": {
     "@google/genai": "^2.16.0",

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "a001",
+    "name": "Loudwave Labs",
+    "domain": "loudwave-labs.example",
+    "industry": "Marketing Software",
+    "fit": {
+      "score": 62,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a002",
+    "name": "Northbeam Systems",
+    "domain": "northbeam-systems.example",
+    "industry": "Industrial Software",
+    "fit": {
+      "score": 88,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a003",
+    "name": "Steadymark Health",
+    "domain": "steadymark-health.example",
+    "industry": "Healthcare IT",
+    "fit": {
+      "score": 95,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a004",
+    "name": "Harborline Retail",
+    "domain": "harborline-retail.example",
+    "industry": "Retail Technology",
+    "fit": {
+      "score": 91,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a005",
+    "name": "Fernbrook Data",
+    "domain": "fernbrook-data.example",
+    "industry": "Data Infrastructure",
+    "fit": {
+      "score": 84,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a006",
+    "name": "Quietstart Robotics",
+    "domain": "quietstart-robotics.example",
+    "industry": "Robotics",
+    "fit": {
+      "score": 76,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a007",
+    "name": "Tallgrass Logistics",
+    "domain": "tallgrass-logistics.example",
+    "industry": "Logistics",
+    "fit": {
+      "score": 79,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a008",
+    "name": "Cobalt Ledger",
+    "domain": "cobalt-ledger.example",
+    "industry": "Fintech",
+    "fit": {
+      "score": 86,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a009",
+    "name": "Mistveil Media",
+    "domain": "mistveil-media.example",
+    "industry": "Media",
+    "fit": {
+      "score": 72,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a010",
+    "name": "Ridgeport Analytics",
+    "domain": "ridgeport-analytics.example",
+    "industry": "Analytics",
+    "fit": {
+      "score": 83,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a011",
+    "name": "Kestrel Payments",
+    "domain": "kestrel-payments.example",
+    "industry": "Payments",
+    "fit": {
+      "score": 83,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a012",
+    "name": "Alderway Freight",
+    "domain": "alderway-freight.example",
+    "industry": "Logistics",
+    "fit": {
+      "score": 72,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a013",
+    "name": "Bluecrest Legal",
+    "domain": "bluecrest-legal.example",
+    "industry": "Legal Technology",
+    "fit": {
+      "score": 44,
+      "band": "weak"
+    }
+  },
+  {
+    "id": "a014",
+    "name": "Cindermill Foods",
+    "domain": "cindermill-foods.example",
+    "industry": "Food & Beverage",
+    "fit": {
+      "score": 71,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a015",
+    "name": "Drovers Insurance",
+    "domain": "drovers-insurance.example",
+    "industry": "Insurance",
+    "fit": {
+      "score": 78,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a016",
+    "name": "Eastgate Learning",
+    "domain": "eastgate-learning.example",
+    "industry": "Education Technology",
+    "fit": {
+      "score": 77,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a017",
+    "name": "Foxglove Biotech",
+    "domain": "foxglove-biotech.example",
+    "industry": "Biotech",
+    "fit": {
+      "score": 39,
+      "band": "weak"
+    }
+  },
+  {
+    "id": "a018",
+    "name": "Glasshouse Travel",
+    "domain": "glasshouse-travel.example",
+    "industry": "Travel",
+    "fit": {
+      "score": 95,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a019",
+    "name": "Halewood Energy",
+    "domain": "halewood-energy.example",
+    "industry": "Energy",
+    "fit": {
+      "score": 77,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a020",
+    "name": "Ironvale Manufacturing",
+    "domain": "ironvale-manufacturing.example",
+    "industry": "Manufacturing",
+    "fit": {
+      "score": 76,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a021",
+    "name": "Junegrove Fitness",
+    "domain": "junegrove-fitness.example",
+    "industry": "Consumer Fitness",
+    "fit": {
+      "score": 79,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a022",
+    "name": "Kelpline Maritime",
+    "domain": "kelpline-maritime.example",
+    "industry": "Maritime",
+    "fit": {
+      "score": 82,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a023",
+    "name": "Larkfield Property",
+    "domain": "larkfield-property.example",
+    "industry": "Real Estate",
+    "fit": {
+      "score": 83,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a024",
+    "name": "Meridian Payroll",
+    "domain": "meridian-payroll.example",
+    "industry": "HR Technology",
+    "fit": {
+      "score": 87,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a025",
+    "name": "Nettlebed Gaming",
+    "domain": "nettlebed-gaming.example",
+    "industry": "Gaming",
+    "fit": {
+      "score": 77,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a026",
+    "name": "Orchard Row Grocery",
+    "domain": "orchard-row-grocery.example",
+    "industry": "Grocery",
+    "fit": {
+      "score": 36,
+      "band": "weak"
+    }
+  },
+  {
+    "id": "a027",
+    "name": "Pinehollow Security",
+    "domain": "pinehollow-security.example",
+    "industry": "Cybersecurity",
+    "fit": {
+      "score": 57,
+      "band": "weak"
+    }
+  },
+  {
+    "id": "a028",
+    "name": "Quarrybank Mining",
+    "domain": "quarrybank-mining.example",
+    "industry": "Mining",
+    "fit": {
+      "score": 76,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a029",
+    "name": "Rushmere Telecom",
+    "domain": "rushmere-telecom.example",
+    "industry": "Telecom",
+    "fit": {
+      "score": 93,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a030",
+    "name": "Saltmarsh Agriculture",
+    "domain": "saltmarsh-agriculture.example",
+    "industry": "Agriculture",
+    "fit": {
+      "score": 76,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a031",
+    "name": "Thornbury Pharma",
+    "domain": "thornbury-pharma.example",
+    "industry": "Pharma",
+    "fit": {
+      "score": 79,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a032",
+    "name": "Underhill Publishing",
+    "domain": "underhill-publishing.example",
+    "industry": "Publishing",
+    "fit": {
+      "score": 65,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a033",
+    "name": "Vellamo Water",
+    "domain": "vellamo-water.example",
+    "industry": "Utilities",
+    "fit": {
+      "score": 63,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a034",
+    "name": "Westcliff Banking",
+    "domain": "westcliff-banking.example",
+    "industry": "Banking",
+    "fit": {
+      "score": 45,
+      "band": "weak"
+    }
+  },
+  {
+    "id": "a035",
+    "name": "Yarrowfield Textiles",
+    "domain": "yarrowfield-textiles.example",
+    "industry": "Textiles",
+    "fit": {
+      "score": 54,
+      "band": "weak"
+    }
+  },
+  {
+    "id": "a036",
+    "name": "Zephyr Freight Tech",
+    "domain": "zephyr-freight-tech.example",
+    "industry": "Logistics",
+    "fit": {
+      "score": 79,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a037",
+    "name": "Ashcombe Robotics",
+    "domain": "ashcombe-robotics.example",
+    "industry": "Robotics",
+    "fit": {
+      "score": 65,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a038",
+    "name": "Brightwater Devices",
+    "domain": "brightwater-devices.example",
+    "industry": "Medical Devices",
+    "fit": {
+      "score": 79,
+      "band": "moderate"
+    }
+  },
+  {
+    "id": "a039",
+    "name": "Coldharbour Cloud",
+    "domain": "coldharbour-cloud.example",
+    "industry": "Cloud Infrastructure",
+    "fit": {
+      "score": 91,
+      "band": "strong"
+    }
+  },
+  {
+    "id": "a040",
+    "name": "Dunmore Analytics",
+    "domain": "dunmore-analytics.example",
+    "industry": "Analytics",
+    "fit": {
+      "score": 74,
+      "band": "moderate"
+    }
+  }
+]

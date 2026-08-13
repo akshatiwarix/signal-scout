@@ -1,0 +1,8404 @@
+[
+  {
+    "account_id": "a001",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 140,
+      "funding_stage": "series_a",
+      "funding_total_usd": 18000000,
+      "stack": [
+        "Warehowse",
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Ship faster",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a001",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 140,
+      "funding_stage": "series_a",
+      "funding_total_usd": 18000000,
+      "stack": [
+        "Warehowse",
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Ship faster",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a001",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 140,
+      "funding_stage": "series_a",
+      "funding_total_usd": 18000000,
+      "stack": [
+        "Warehowse",
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Ship faster",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a001",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 140,
+      "funding_stage": "series_a",
+      "funding_total_usd": 18000000,
+      "stack": [
+        "Warehowse",
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Ship faster",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a001",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 140,
+      "funding_stage": "series_a",
+      "funding_total_usd": 18000000,
+      "stack": [
+        "Warehowse",
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Ship faster, together",
+      "homepage_hash": "home-2",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-05-24",
+        "title": "Loudwave 3.0"
+      },
+      {
+        "kind": "release",
+        "observed_at": "2026-06-03",
+        "title": "Inline previews"
+      }
+    ]
+  },
+  {
+    "account_id": "a001",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 140,
+      "funding_stage": "series_a",
+      "funding_total_usd": 18000000,
+      "stack": [
+        "Warehowse",
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Ship faster, together",
+      "homepage_hash": "home-3",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-06-26",
+        "title": "Workspace themes"
+      }
+    ]
+  },
+  {
+    "account_id": "a001",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 140,
+      "funding_stage": "series_a",
+      "funding_total_usd": 18000000,
+      "stack": [
+        "Warehowse",
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "The platform for shipping",
+      "homepage_hash": "home-4",
+      "pricing_page_hash": "price-2"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-07-17",
+        "title": "Loudwave AI beta"
+      },
+      {
+        "kind": "release",
+        "observed_at": "2026-07-24",
+        "title": "New onboarding"
+      }
+    ]
+  },
+  {
+    "account_id": "a001",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 140,
+      "funding_stage": "series_a",
+      "funding_total_usd": 18000000,
+      "stack": [
+        "Warehowse",
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "The platform for shipping",
+      "homepage_hash": "home-5",
+      "pricing_page_hash": "price-2"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-08-06",
+        "title": "Mobile app"
+      }
+    ]
+  },
+  {
+    "account_id": "a002",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 210,
+      "funding_stage": "series_b",
+      "funding_total_usd": 52000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "product",
+          "title": "VP Product"
+        },
+        {
+          "fn": "sales",
+          "title": "CRO"
+        }
+      ],
+      "tagline": "Operations software for plants",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a002",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 210,
+      "funding_stage": "series_b",
+      "funding_total_usd": 52000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "product",
+          "title": "VP Product"
+        },
+        {
+          "fn": "sales",
+          "title": "CRO"
+        }
+      ],
+      "tagline": "Operations software for plants",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a002",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 210,
+      "funding_stage": "series_b",
+      "funding_total_usd": 52000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "product",
+          "title": "VP Product"
+        },
+        {
+          "fn": "sales",
+          "title": "CRO"
+        }
+      ],
+      "tagline": "Operations software for plants",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a002",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 210,
+      "funding_stage": "series_b",
+      "funding_total_usd": 52000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "product",
+          "title": "VP Product"
+        },
+        {
+          "fn": "sales",
+          "title": "CRO"
+        }
+      ],
+      "tagline": "Operations software for plants",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a002",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 210,
+      "funding_stage": "series_b",
+      "funding_total_usd": 52000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "product",
+          "title": "VP Product"
+        },
+        {
+          "fn": "sales",
+          "title": "CRO"
+        }
+      ],
+      "tagline": "Operations software for plants",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a002",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 262,
+      "funding_stage": "series_b",
+      "funding_total_usd": 52000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "product",
+          "title": "VP Product"
+        },
+        {
+          "fn": "sales",
+          "title": "CRO"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Operations software for plants",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-17",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-21",
+        "title": "Staff Platform Engineer",
+        "department": null,
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-26",
+        "title": "Engineering Manager",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-01",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Remote — US"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-05",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Remote — US"
+      }
+    ]
+  },
+  {
+    "account_id": "a002",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 262,
+      "funding_stage": "series_b",
+      "funding_total_usd": 52000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "product",
+          "title": "VP Product"
+        },
+        {
+          "fn": "sales",
+          "title": "CRO"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Operations software for plants",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-15",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-21",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-26",
+        "title": "Engineering Manager",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      }
+    ]
+  },
+  {
+    "account_id": "a002",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 288,
+      "funding_stage": "series_b",
+      "funding_total_usd": 52000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "product",
+          "title": "VP Product"
+        },
+        {
+          "fn": "sales",
+          "title": "CRO"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Operations software for plants",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-08-04",
+        "title": "Analytics Engineer",
+        "department": "Data",
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-08-08",
+        "title": "Staff Data Engineer",
+        "department": "Data",
+        "location": "Toronto, ON"
+      }
+    ]
+  },
+  {
+    "account_id": "a003",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 320,
+      "funding_stage": "series_c",
+      "funding_total_usd": 140000000,
+      "stack": [
+        "Warehowse",
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "security",
+          "title": "CISO"
+        }
+      ],
+      "tagline": "Clinical data infrastructure",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a003",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 320,
+      "funding_stage": "series_c",
+      "funding_total_usd": 140000000,
+      "stack": [
+        "Warehowse",
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "security",
+          "title": "CISO"
+        }
+      ],
+      "tagline": "Clinical data infrastructure",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a003",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 320,
+      "funding_stage": "series_c",
+      "funding_total_usd": 140000000,
+      "stack": [
+        "Warehowse",
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "security",
+          "title": "CISO"
+        }
+      ],
+      "tagline": "Clinical data infrastructure",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a003",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 320,
+      "funding_stage": "series_c",
+      "funding_total_usd": 140000000,
+      "stack": [
+        "Warehowse",
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "security",
+          "title": "CISO"
+        }
+      ],
+      "tagline": "Clinical data infrastructure",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a003",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 320,
+      "funding_stage": "series_c",
+      "funding_total_usd": 140000000,
+      "stack": [
+        "Warehowse",
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "security",
+          "title": "CISO"
+        }
+      ],
+      "tagline": "Clinical data infrastructure",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a003",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 320,
+      "funding_stage": "series_c",
+      "funding_total_usd": 140000000,
+      "stack": [
+        "Warehowse",
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "security",
+          "title": "CISO"
+        }
+      ],
+      "tagline": "Clinical data infrastructure",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a003",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 320,
+      "funding_stage": "series_c",
+      "funding_total_usd": 140000000,
+      "stack": [
+        "Warehowse",
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "security",
+          "title": "CISO"
+        }
+      ],
+      "tagline": "Clinical data infrastructure",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a003",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 320,
+      "funding_stage": "series_c",
+      "funding_total_usd": 140000000,
+      "stack": [
+        "Warehowse",
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "security",
+          "title": "CISO"
+        }
+      ],
+      "tagline": "Clinical data infrastructure",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a004",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 260,
+      "funding_stage": "series_b",
+      "funding_total_usd": 64000000,
+      "stack": [
+        "Warehowse",
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "COO"
+        }
+      ],
+      "tagline": "Retail operations, simplified",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a004",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 260,
+      "funding_stage": "series_b",
+      "funding_total_usd": 64000000,
+      "stack": [
+        "Warehowse",
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "COO"
+        }
+      ],
+      "tagline": "Retail operations, simplified",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a004",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 260,
+      "funding_stage": "series_b",
+      "funding_total_usd": 64000000,
+      "stack": [
+        "Warehowse",
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "COO"
+        }
+      ],
+      "tagline": "Retail operations, simplified",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a004",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 260,
+      "funding_stage": "series_b",
+      "funding_total_usd": 64000000,
+      "stack": [
+        "Warehowse",
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "COO"
+        }
+      ],
+      "tagline": "Retail operations, simplified",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a004",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 260,
+      "funding_stage": "series_b",
+      "funding_total_usd": 64000000,
+      "stack": [
+        "Warehowse",
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "COO"
+        }
+      ],
+      "tagline": "Retail operations, simplified",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a004",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 182,
+      "funding_stage": "series_b",
+      "funding_total_usd": 64000000,
+      "stack": [
+        "Warehowse",
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "COO"
+        }
+      ],
+      "tagline": "Retail operations, simplified",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a004",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 182,
+      "funding_stage": "series_b",
+      "funding_total_usd": 64000000,
+      "stack": [
+        "Warehowse",
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "COO"
+        }
+      ],
+      "tagline": "Retail operations, simplified",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a004",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 176,
+      "funding_stage": "series_b",
+      "funding_total_usd": 64000000,
+      "stack": [
+        "Warehowse",
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "COO"
+        }
+      ],
+      "tagline": "Retail operations, simplified",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a005",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 96,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Pipelines without the plumbing",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a005",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 96,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Pipelines without the plumbing",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a005",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 96,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Pipelines without the plumbing",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a005",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 96,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Pipelines without the plumbing",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a005",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 138,
+      "funding_stage": "series_b",
+      "funding_total_usd": 48000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Pipelines without the plumbing",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a006",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 90,
+      "funding_stage": "series_a",
+      "funding_total_usd": 21000000,
+      "stack": [
+        "Rivalytics",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Data"
+        }
+      ],
+      "tagline": "Autonomy for warehouses",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a006",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 90,
+      "funding_stage": "series_a",
+      "funding_total_usd": 21000000,
+      "stack": [
+        "Rivalytics",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Data"
+        }
+      ],
+      "tagline": "Autonomy for warehouses",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a006",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 90,
+      "funding_stage": "series_a",
+      "funding_total_usd": 21000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Data"
+        }
+      ],
+      "tagline": "Autonomy for warehouses",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a006",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 90,
+      "funding_stage": "series_a",
+      "funding_total_usd": 21000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Data"
+        }
+      ],
+      "tagline": "Autonomy for warehouses",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a007",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_b",
+      "funding_total_usd": 40000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "operations",
+          "title": "COO"
+        },
+        {
+          "fn": "engineering",
+          "title": "Director of Engineering"
+        }
+      ],
+      "tagline": "Freight, coordinated",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a007",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_b",
+      "funding_total_usd": 40000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "operations",
+          "title": "COO"
+        },
+        {
+          "fn": "engineering",
+          "title": "Director of Engineering"
+        }
+      ],
+      "tagline": "Freight, coordinated",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a007",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_b",
+      "funding_total_usd": 40000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "operations",
+          "title": "COO"
+        },
+        {
+          "fn": "engineering",
+          "title": "Director of Engineering"
+        }
+      ],
+      "tagline": "Freight, coordinated",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a007",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_b",
+      "funding_total_usd": 40000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "operations",
+          "title": "COO"
+        },
+        {
+          "fn": "engineering",
+          "title": "Director of Engineering"
+        }
+      ],
+      "tagline": "Freight, coordinated",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-04-23",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-04-28",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Remote — US"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-05-04",
+        "title": "Engineering Manager",
+        "department": "Engineering",
+        "location": "Remote — US"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-05-09",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Berlin, DE"
+      }
+    ]
+  },
+  {
+    "account_id": "a007",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_b",
+      "funding_total_usd": 40000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "operations",
+          "title": "COO"
+        },
+        {
+          "fn": "engineering",
+          "title": "Director of Engineering"
+        }
+      ],
+      "tagline": "Freight, coordinated",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a007",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_b",
+      "funding_total_usd": 40000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "operations",
+          "title": "COO"
+        },
+        {
+          "fn": "engineering",
+          "title": "Director of Engineering"
+        }
+      ],
+      "tagline": "Freight, coordinated",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-14",
+        "title": "Senior Backend Engineer",
+        "department": null,
+        "location": "Toronto, ON"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-16",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Remote — US"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-18",
+        "title": "Engineering Manager",
+        "department": null,
+        "location": "Toronto, ON"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-19",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-21",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "London, UK"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-23",
+        "title": "Engineering Manager",
+        "department": "Engineering",
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-25",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-27",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-06-29",
+        "title": "Engineering Manager",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-01",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-03",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-04",
+        "title": "Engineering Manager",
+        "department": null,
+        "location": "London, UK"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-06",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-08",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Berlin, DE"
+      }
+    ]
+  },
+  {
+    "account_id": "a007",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_b",
+      "funding_total_usd": 40000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "operations",
+          "title": "COO"
+        },
+        {
+          "fn": "engineering",
+          "title": "Director of Engineering"
+        }
+      ],
+      "tagline": "Freight, coordinated",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-13",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-16",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Remote — US"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-19",
+        "title": "Engineering Manager",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-22",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "London, UK"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-25",
+        "title": "Staff Platform Engineer",
+        "department": null,
+        "location": "Berlin, DE"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-07-28",
+        "title": "Engineering Manager",
+        "department": "Engineering",
+        "location": "London, UK"
+      }
+    ]
+  },
+  {
+    "account_id": "a007",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_b",
+      "funding_total_usd": 40000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "operations",
+          "title": "COO"
+        },
+        {
+          "fn": "engineering",
+          "title": "Director of Engineering"
+        }
+      ],
+      "tagline": "Freight, coordinated",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a008",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 74,
+      "funding_stage": "seed",
+      "funding_total_usd": 4500000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "finance",
+          "title": "VP Finance"
+        }
+      ],
+      "tagline": "Ledgers for embedded finance",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a008",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 74,
+      "funding_stage": "seed",
+      "funding_total_usd": 4500000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "finance",
+          "title": "VP Finance"
+        }
+      ],
+      "tagline": "Ledgers for embedded finance",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a008",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 74,
+      "funding_stage": "seed",
+      "funding_total_usd": 4500000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "finance",
+          "title": "VP Finance"
+        }
+      ],
+      "tagline": "Ledgers for embedded finance",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a008",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 88,
+      "funding_stage": "series_a",
+      "funding_total_usd": 26000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "finance",
+          "title": "VP Finance"
+        }
+      ],
+      "tagline": "Ledgers for embedded finance",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a008",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 88,
+      "funding_stage": "series_a",
+      "funding_total_usd": 26000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "finance",
+          "title": "VP Finance"
+        }
+      ],
+      "tagline": "Ledgers for embedded finance",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a008",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 88,
+      "funding_stage": "series_a",
+      "funding_total_usd": 26000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "finance",
+          "title": "VP Finance"
+        }
+      ],
+      "tagline": "Ledgers for embedded finance",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a008",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 88,
+      "funding_stage": "series_a",
+      "funding_total_usd": 26000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "finance",
+          "title": "VP Finance"
+        }
+      ],
+      "tagline": "Ledgers for embedded finance",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a008",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 88,
+      "funding_stage": "series_a",
+      "funding_total_usd": 26000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "CTO"
+        },
+        {
+          "fn": "finance",
+          "title": "VP Finance"
+        }
+      ],
+      "tagline": "Ledgers for embedded finance",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a009",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 60,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Stories that travel",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a009",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 60,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Stories, everywhere",
+      "homepage_hash": "home-2",
+      "pricing_page_hash": "price-1"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-03-06",
+        "title": "Mistveil Reader"
+      }
+    ]
+  },
+  {
+    "account_id": "a009",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 60,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Stories, everywhere",
+      "homepage_hash": "home-2",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a009",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 60,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Stories, everywhere",
+      "homepage_hash": "home-2",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a009",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 60,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Stories, everywhere",
+      "homepage_hash": "home-2",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a009",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 60,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Stories, everywhere",
+      "homepage_hash": "home-2",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a009",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 60,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Stories, everywhere",
+      "homepage_hash": "home-2",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a009",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 60,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Pagelight"
+      ],
+      "execs": [
+        {
+          "fn": "marketing",
+          "title": "CMO"
+        }
+      ],
+      "tagline": "Stories, everywhere",
+      "homepage_hash": "home-2",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a010",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Analytics for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a010",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Analytics for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a010",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Analytics for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a010",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Analytics for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a010",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Rivalytics",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Analytics for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a010",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Analytics for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a010",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Analytics for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a010",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Analytics for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a011",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Payments for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a011",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Payments for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a011",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Payments for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a011",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Payments for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a011",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Payments for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a011",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Payments for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a011",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Payments for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a011",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 150,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Terraflow",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Data"
+        },
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Payments for operators",
+      "homepage_hash": "home-1",
+      "pricing_page_hash": "price-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a012",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 906,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Alderway for logistics",
+      "homepage_hash": "home-0-1",
+      "pricing_page_hash": "price-0-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a012",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 906,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Alderway for logistics",
+      "homepage_hash": "home-0-1",
+      "pricing_page_hash": "price-0-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a012",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 906,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Alderway for logistics",
+      "homepage_hash": "home-0-1",
+      "pricing_page_hash": "price-0-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a012",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 906,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Alderway for logistics",
+      "homepage_hash": "home-0-1",
+      "pricing_page_hash": "price-0-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a012",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 906,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Alderway for logistics",
+      "homepage_hash": "home-0-1",
+      "pricing_page_hash": "price-0-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a012",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 906,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Alderway for logistics",
+      "homepage_hash": "home-0-1",
+      "pricing_page_hash": "price-0-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a012",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 906,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Alderway for logistics",
+      "homepage_hash": "home-0-1",
+      "pricing_page_hash": "price-0-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a012",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 906,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Alderway for logistics",
+      "homepage_hash": "home-0-1",
+      "pricing_page_hash": "price-0-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a013",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 427,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Bluecrest for legal technology",
+      "homepage_hash": "home-1-1",
+      "pricing_page_hash": "price-1-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a013",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 427,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Bluecrest for legal technology",
+      "homepage_hash": "home-1-1",
+      "pricing_page_hash": "price-1-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a013",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 427,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Bluecrest for legal technology",
+      "homepage_hash": "home-1-1",
+      "pricing_page_hash": "price-1-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a013",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 427,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Bluecrest for legal technology",
+      "homepage_hash": "home-1-1",
+      "pricing_page_hash": "price-1-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a013",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 363,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Bluecrest for legal technology",
+      "homepage_hash": "home-1-1",
+      "pricing_page_hash": "price-1-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a013",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 363,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Bluecrest for legal technology",
+      "homepage_hash": "home-1-1",
+      "pricing_page_hash": "price-1-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a013",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 363,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Bluecrest for legal technology",
+      "homepage_hash": "home-1-1",
+      "pricing_page_hash": "price-1-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a013",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 363,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Bluecrest for legal technology",
+      "homepage_hash": "home-1-1",
+      "pricing_page_hash": "price-1-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a014",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 542,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Cindermill for food & beverage",
+      "homepage_hash": "home-2-1",
+      "pricing_page_hash": "price-2-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a014",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 542,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Cindermill for food & beverage",
+      "homepage_hash": "home-2-1",
+      "pricing_page_hash": "price-2-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a014",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 738,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Cindermill for food & beverage",
+      "homepage_hash": "home-2-1",
+      "pricing_page_hash": "price-2-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-03-27",
+        "title": "IT Operations Engineer",
+        "department": null,
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-04-03",
+        "title": "Systems Administrator",
+        "department": "IT",
+        "location": "London, UK"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-04-10",
+        "title": "IT Operations Engineer",
+        "department": null,
+        "location": "London, UK"
+      }
+    ]
+  },
+  {
+    "account_id": "a014",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 738,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Cindermill for food & beverage",
+      "homepage_hash": "home-2-1",
+      "pricing_page_hash": "price-2-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a014",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 738,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Cindermill for food & beverage",
+      "homepage_hash": "home-2-1",
+      "pricing_page_hash": "price-2-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a014",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 738,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Cindermill for food & beverage",
+      "homepage_hash": "home-2-1",
+      "pricing_page_hash": "price-2-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a014",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 738,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Cindermill for food & beverage",
+      "homepage_hash": "home-2-1",
+      "pricing_page_hash": "price-2-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a014",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 738,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Cindermill for food & beverage",
+      "homepage_hash": "home-2-1",
+      "pricing_page_hash": "price-2-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a015",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 487,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Drovers for insurance",
+      "homepage_hash": "home-3-1",
+      "pricing_page_hash": "price-3-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a015",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 487,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Drovers for insurance",
+      "homepage_hash": "home-3-1",
+      "pricing_page_hash": "price-3-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a015",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 487,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Drovers for insurance",
+      "homepage_hash": "home-3-1",
+      "pricing_page_hash": "price-3-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a015",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 487,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Drovers for insurance",
+      "homepage_hash": "home-3-1",
+      "pricing_page_hash": "price-3-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a015",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 487,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Drovers for insurance",
+      "homepage_hash": "home-3-1",
+      "pricing_page_hash": "price-3-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a015",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 487,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Drovers for insurance",
+      "homepage_hash": "home-3-1",
+      "pricing_page_hash": "price-3-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a015",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 487,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Drovers for insurance",
+      "homepage_hash": "home-3-1",
+      "pricing_page_hash": "price-3-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a015",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 487,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Drovers for insurance",
+      "homepage_hash": "home-3-1",
+      "pricing_page_hash": "price-3-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a016",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 844,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Eastgate for education technology",
+      "homepage_hash": "home-4-1",
+      "pricing_page_hash": "price-4-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a016",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 844,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Eastgate for education technology",
+      "homepage_hash": "home-4-1",
+      "pricing_page_hash": "price-4-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a016",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 844,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Eastgate for education technology",
+      "homepage_hash": "home-4-1",
+      "pricing_page_hash": "price-4-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a016",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 844,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Eastgate for education technology",
+      "homepage_hash": "home-4-1",
+      "pricing_page_hash": "price-4-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a016",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 844,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Eastgate for education technology",
+      "homepage_hash": "home-4-1",
+      "pricing_page_hash": "price-4-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a016",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 844,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Eastgate for education technology",
+      "homepage_hash": "home-4-1",
+      "pricing_page_hash": "price-4-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a016",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 844,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Eastgate for education technology",
+      "homepage_hash": "home-4-1",
+      "pricing_page_hash": "price-4-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a016",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 844,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Eastgate for education technology",
+      "homepage_hash": "home-4-1",
+      "pricing_page_hash": "price-4-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a017",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 89,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Foxglove for biotech",
+      "homepage_hash": "home-5-1",
+      "pricing_page_hash": "price-5-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a017",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 89,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Foxglove for biotech",
+      "homepage_hash": "home-5-1",
+      "pricing_page_hash": "price-5-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a017",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 89,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Foxglove for biotech",
+      "homepage_hash": "home-5-1",
+      "pricing_page_hash": "price-5-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a017",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 89,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Foxglove for biotech",
+      "homepage_hash": "home-5-1",
+      "pricing_page_hash": "price-5-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a017",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 89,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Foxglove for biotech",
+      "homepage_hash": "home-5-1",
+      "pricing_page_hash": "price-5-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a017",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 89,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Foxglove for biotech",
+      "homepage_hash": "home-5-1",
+      "pricing_page_hash": "price-5-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a017",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 89,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Foxglove for biotech",
+      "homepage_hash": "home-5-1",
+      "pricing_page_hash": "price-5-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a017",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 89,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Foxglove for biotech",
+      "homepage_hash": "home-5-1",
+      "pricing_page_hash": "price-5-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a018",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 77,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Glasshouse for travel",
+      "homepage_hash": "home-6-1",
+      "pricing_page_hash": "price-6-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a018",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 77,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Glasshouse for travel",
+      "homepage_hash": "home-6-1",
+      "pricing_page_hash": "price-6-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a018",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 77,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Glasshouse for travel",
+      "homepage_hash": "home-6-1",
+      "pricing_page_hash": "price-6-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a018",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 77,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Glasshouse for travel",
+      "homepage_hash": "home-6-1",
+      "pricing_page_hash": "price-6-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a018",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 77,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Glasshouse for travel",
+      "homepage_hash": "home-6-1",
+      "pricing_page_hash": "price-6-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a018",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 77,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Glasshouse for travel",
+      "homepage_hash": "home-6-1",
+      "pricing_page_hash": "price-6-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a018",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 77,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Glasshouse for travel",
+      "homepage_hash": "home-6-1",
+      "pricing_page_hash": "price-6-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a018",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 77,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Glasshouse for travel",
+      "homepage_hash": "home-6-1",
+      "pricing_page_hash": "price-6-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a019",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 258,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Halewood for energy",
+      "homepage_hash": "home-7-1",
+      "pricing_page_hash": "price-7-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a019",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 258,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Halewood for energy",
+      "homepage_hash": "home-7-1",
+      "pricing_page_hash": "price-7-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a019",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 258,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Halewood for energy",
+      "homepage_hash": "home-7-1",
+      "pricing_page_hash": "price-7-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a019",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 219,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Halewood for energy",
+      "homepage_hash": "home-7-1",
+      "pricing_page_hash": "price-7-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a019",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 219,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Halewood for energy",
+      "homepage_hash": "home-7-1",
+      "pricing_page_hash": "price-7-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a019",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 219,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Halewood for energy",
+      "homepage_hash": "home-7-1",
+      "pricing_page_hash": "price-7-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a019",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 219,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Halewood for energy",
+      "homepage_hash": "home-7-1",
+      "pricing_page_hash": "price-7-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a019",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 219,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Halewood for energy",
+      "homepage_hash": "home-7-1",
+      "pricing_page_hash": "price-7-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a020",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 925,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Ironvale for manufacturing",
+      "homepage_hash": "home-8-1",
+      "pricing_page_hash": "price-8-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a020",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 925,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Ironvale for manufacturing",
+      "homepage_hash": "home-8-1",
+      "pricing_page_hash": "price-8-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a020",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 925,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Ironvale for manufacturing",
+      "homepage_hash": "home-8-1",
+      "pricing_page_hash": "price-8-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a020",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 925,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Ironvale for manufacturing",
+      "homepage_hash": "home-8-1",
+      "pricing_page_hash": "price-8-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a020",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 925,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Ironvale for manufacturing",
+      "homepage_hash": "home-8-1",
+      "pricing_page_hash": "price-8-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a020",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 925,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Ironvale for manufacturing",
+      "homepage_hash": "home-8-1",
+      "pricing_page_hash": "price-8-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a020",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 925,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Ironvale for manufacturing",
+      "homepage_hash": "home-8-1",
+      "pricing_page_hash": "price-8-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a020",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 925,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse",
+        "Sentrylight"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Ironvale for manufacturing",
+      "homepage_hash": "home-8-1",
+      "pricing_page_hash": "price-8-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a021",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 357,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Sentrylight",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Junegrove for consumer fitness",
+      "homepage_hash": "home-9-1",
+      "pricing_page_hash": "price-9-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a021",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 357,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Sentrylight",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Junegrove for consumer fitness",
+      "homepage_hash": "home-9-1",
+      "pricing_page_hash": "price-9-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a021",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 357,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Sentrylight",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Junegrove for consumer fitness",
+      "homepage_hash": "home-9-1",
+      "pricing_page_hash": "price-9-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a021",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 357,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Sentrylight",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Junegrove for consumer fitness",
+      "homepage_hash": "home-9-1",
+      "pricing_page_hash": "price-9-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a021",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 357,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Sentrylight",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Junegrove for consumer fitness",
+      "homepage_hash": "home-9-1",
+      "pricing_page_hash": "price-9-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a021",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 357,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Sentrylight",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Junegrove for consumer fitness",
+      "homepage_hash": "home-9-1",
+      "pricing_page_hash": "price-9-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a021",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 357,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Sentrylight",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Junegrove for consumer fitness",
+      "homepage_hash": "home-9-1",
+      "pricing_page_hash": "price-9-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a021",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 357,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Sentrylight",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Junegrove for consumer fitness",
+      "homepage_hash": "home-9-1",
+      "pricing_page_hash": "price-9-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a022",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 490,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Kelpline for maritime",
+      "homepage_hash": "home-10-1",
+      "pricing_page_hash": "price-10-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a022",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 490,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Kelpline for maritime",
+      "homepage_hash": "home-10-1",
+      "pricing_page_hash": "price-10-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a022",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 490,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Kelpline for maritime",
+      "homepage_hash": "home-10-1",
+      "pricing_page_hash": "price-10-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a022",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 490,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Kelpline for maritime",
+      "homepage_hash": "home-10-1",
+      "pricing_page_hash": "price-10-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a022",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 490,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Kelpline, reimagined",
+      "homepage_hash": "home-10-2",
+      "pricing_page_hash": "price-10-1"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-05-29",
+        "title": "Kelpline 2.0"
+      }
+    ]
+  },
+  {
+    "account_id": "a022",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 490,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Kelpline, reimagined",
+      "homepage_hash": "home-10-2",
+      "pricing_page_hash": "price-10-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a022",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 490,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Kelpline, reimagined",
+      "homepage_hash": "home-10-2",
+      "pricing_page_hash": "price-10-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a022",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 490,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Kelpline, reimagined",
+      "homepage_hash": "home-10-2",
+      "pricing_page_hash": "price-10-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a023",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 197,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Larkfield for real estate",
+      "homepage_hash": "home-11-1",
+      "pricing_page_hash": "price-11-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a023",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 197,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Larkfield for real estate",
+      "homepage_hash": "home-11-1",
+      "pricing_page_hash": "price-11-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a023",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 197,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Larkfield for real estate",
+      "homepage_hash": "home-11-1",
+      "pricing_page_hash": "price-11-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a023",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 332,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Larkfield for real estate",
+      "homepage_hash": "home-11-1",
+      "pricing_page_hash": "price-11-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-04-24",
+        "title": "IT Operations Engineer",
+        "department": "IT",
+        "location": "London, UK"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-05-01",
+        "title": "Systems Administrator",
+        "department": null,
+        "location": "London, UK"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-05-08",
+        "title": "IT Operations Engineer",
+        "department": null,
+        "location": "London, UK"
+      }
+    ]
+  },
+  {
+    "account_id": "a023",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 332,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Larkfield for real estate",
+      "homepage_hash": "home-11-1",
+      "pricing_page_hash": "price-11-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a023",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 332,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Larkfield for real estate",
+      "homepage_hash": "home-11-1",
+      "pricing_page_hash": "price-11-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a023",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 332,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Larkfield for real estate",
+      "homepage_hash": "home-11-1",
+      "pricing_page_hash": "price-11-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a023",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 332,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "sales",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Larkfield for real estate",
+      "homepage_hash": "home-11-1",
+      "pricing_page_hash": "price-11-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a024",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 167,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Meridian for hr technology",
+      "homepage_hash": "home-12-1",
+      "pricing_page_hash": "price-12-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a024",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 167,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Meridian for hr technology",
+      "homepage_hash": "home-12-1",
+      "pricing_page_hash": "price-12-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a024",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 167,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Meridian for hr technology",
+      "homepage_hash": "home-12-1",
+      "pricing_page_hash": "price-12-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a024",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 167,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Meridian for hr technology",
+      "homepage_hash": "home-12-1",
+      "pricing_page_hash": "price-12-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a024",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 167,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Meridian for hr technology",
+      "homepage_hash": "home-12-1",
+      "pricing_page_hash": "price-12-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a024",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 167,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Meridian for hr technology",
+      "homepage_hash": "home-12-1",
+      "pricing_page_hash": "price-12-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a024",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 167,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Meridian, reimagined",
+      "homepage_hash": "home-12-2",
+      "pricing_page_hash": "price-12-1"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-07-21",
+        "title": "Meridian 2.0"
+      }
+    ]
+  },
+  {
+    "account_id": "a024",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 167,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Meridian, reimagined",
+      "homepage_hash": "home-12-2",
+      "pricing_page_hash": "price-12-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a025",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 73,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Nettlebed for gaming",
+      "homepage_hash": "home-13-1",
+      "pricing_page_hash": "price-13-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a025",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 73,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Nettlebed for gaming",
+      "homepage_hash": "home-13-1",
+      "pricing_page_hash": "price-13-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a025",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 73,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Nettlebed, reimagined",
+      "homepage_hash": "home-13-2",
+      "pricing_page_hash": "price-13-1"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-04-03",
+        "title": "Nettlebed 2.0"
+      }
+    ]
+  },
+  {
+    "account_id": "a025",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 73,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Nettlebed, reimagined",
+      "homepage_hash": "home-13-2",
+      "pricing_page_hash": "price-13-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a025",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 73,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Nettlebed, reimagined",
+      "homepage_hash": "home-13-2",
+      "pricing_page_hash": "price-13-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a025",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 73,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Nettlebed, reimagined",
+      "homepage_hash": "home-13-2",
+      "pricing_page_hash": "price-13-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a025",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 73,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Nettlebed, reimagined",
+      "homepage_hash": "home-13-2",
+      "pricing_page_hash": "price-13-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a025",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 73,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Nettlebed, reimagined",
+      "homepage_hash": "home-13-2",
+      "pricing_page_hash": "price-13-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a026",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 393,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Orchard for grocery",
+      "homepage_hash": "home-14-1",
+      "pricing_page_hash": "price-14-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a026",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 393,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Orchard for grocery",
+      "homepage_hash": "home-14-1",
+      "pricing_page_hash": "price-14-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a026",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 393,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Orchard for grocery",
+      "homepage_hash": "home-14-1",
+      "pricing_page_hash": "price-14-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a026",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 393,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Orchard for grocery",
+      "homepage_hash": "home-14-1",
+      "pricing_page_hash": "price-14-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a026",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 393,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Orchard for grocery",
+      "homepage_hash": "home-14-1",
+      "pricing_page_hash": "price-14-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a026",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 334,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Orchard for grocery",
+      "homepage_hash": "home-14-1",
+      "pricing_page_hash": "price-14-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a026",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 334,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Orchard for grocery",
+      "homepage_hash": "home-14-1",
+      "pricing_page_hash": "price-14-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a026",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 334,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Orchard for grocery",
+      "homepage_hash": "home-14-1",
+      "pricing_page_hash": "price-14-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a027",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 420,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Pinehollow for cybersecurity",
+      "homepage_hash": "home-15-1",
+      "pricing_page_hash": "price-15-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a027",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 420,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Pinehollow for cybersecurity",
+      "homepage_hash": "home-15-1",
+      "pricing_page_hash": "price-15-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a027",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 420,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Pinehollow for cybersecurity",
+      "homepage_hash": "home-15-1",
+      "pricing_page_hash": "price-15-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a027",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 420,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Pinehollow for cybersecurity",
+      "homepage_hash": "home-15-1",
+      "pricing_page_hash": "price-15-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a027",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 420,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Pinehollow for cybersecurity",
+      "homepage_hash": "home-15-1",
+      "pricing_page_hash": "price-15-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a027",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 420,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Pinehollow for cybersecurity",
+      "homepage_hash": "home-15-1",
+      "pricing_page_hash": "price-15-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a027",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 420,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Pinehollow for cybersecurity",
+      "homepage_hash": "home-15-1",
+      "pricing_page_hash": "price-15-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a027",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 420,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "security",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "data",
+          "title": "Head of Platform"
+        }
+      ],
+      "tagline": "Pinehollow for cybersecurity",
+      "homepage_hash": "home-15-1",
+      "pricing_page_hash": "price-15-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a028",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 347,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Warehowse",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Quarrybank for mining",
+      "homepage_hash": "home-16-1",
+      "pricing_page_hash": "price-16-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a028",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 347,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Warehowse",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Quarrybank for mining",
+      "homepage_hash": "home-16-1",
+      "pricing_page_hash": "price-16-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a028",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 347,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Warehowse",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Quarrybank for mining",
+      "homepage_hash": "home-16-1",
+      "pricing_page_hash": "price-16-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a028",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 347,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Warehowse",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Quarrybank for mining",
+      "homepage_hash": "home-16-1",
+      "pricing_page_hash": "price-16-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a028",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 347,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Warehowse",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Quarrybank for mining",
+      "homepage_hash": "home-16-1",
+      "pricing_page_hash": "price-16-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a028",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 347,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Warehowse",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Quarrybank for mining",
+      "homepage_hash": "home-16-1",
+      "pricing_page_hash": "price-16-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a028",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 347,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Quarrybank for mining",
+      "homepage_hash": "home-16-1",
+      "pricing_page_hash": "price-16-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a028",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 347,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Warehowse",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Quarrybank for mining",
+      "homepage_hash": "home-16-1",
+      "pricing_page_hash": "price-16-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a029",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 791,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Rushmere for telecom",
+      "homepage_hash": "home-17-1",
+      "pricing_page_hash": "price-17-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a029",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 791,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Rushmere for telecom",
+      "homepage_hash": "home-17-1",
+      "pricing_page_hash": "price-17-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a029",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 791,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Rushmere for telecom",
+      "homepage_hash": "home-17-1",
+      "pricing_page_hash": "price-17-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a029",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 791,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Rushmere for telecom",
+      "homepage_hash": "home-17-1",
+      "pricing_page_hash": "price-17-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a029",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 791,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Rushmere for telecom",
+      "homepage_hash": "home-17-1",
+      "pricing_page_hash": "price-17-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a029",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 791,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Rushmere for telecom",
+      "homepage_hash": "home-17-1",
+      "pricing_page_hash": "price-17-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a029",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 791,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Rushmere for telecom",
+      "homepage_hash": "home-17-1",
+      "pricing_page_hash": "price-17-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a029",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 791,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Rushmere for telecom",
+      "homepage_hash": "home-17-1",
+      "pricing_page_hash": "price-17-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a030",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 144,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Saltmarsh for agriculture",
+      "homepage_hash": "home-18-1",
+      "pricing_page_hash": "price-18-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a030",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 144,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Saltmarsh for agriculture",
+      "homepage_hash": "home-18-1",
+      "pricing_page_hash": "price-18-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a030",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 144,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Saltmarsh for agriculture",
+      "homepage_hash": "home-18-1",
+      "pricing_page_hash": "price-18-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a030",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 144,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Saltmarsh, reimagined",
+      "homepage_hash": "home-18-2",
+      "pricing_page_hash": "price-18-1"
+    },
+    "items": [
+      {
+        "kind": "release",
+        "observed_at": "2026-05-01",
+        "title": "Saltmarsh 2.0"
+      }
+    ]
+  },
+  {
+    "account_id": "a030",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 144,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Saltmarsh, reimagined",
+      "homepage_hash": "home-18-2",
+      "pricing_page_hash": "price-18-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a030",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 144,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Saltmarsh, reimagined",
+      "homepage_hash": "home-18-2",
+      "pricing_page_hash": "price-18-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a030",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 144,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Saltmarsh, reimagined",
+      "homepage_hash": "home-18-2",
+      "pricing_page_hash": "price-18-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a030",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 144,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Saltmarsh, reimagined",
+      "homepage_hash": "home-18-2",
+      "pricing_page_hash": "price-18-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a031",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 642,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Thornbury for pharma",
+      "homepage_hash": "home-19-1",
+      "pricing_page_hash": "price-19-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a031",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 642,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Thornbury for pharma",
+      "homepage_hash": "home-19-1",
+      "pricing_page_hash": "price-19-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a031",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 642,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Thornbury for pharma",
+      "homepage_hash": "home-19-1",
+      "pricing_page_hash": "price-19-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a031",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 642,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Thornbury for pharma",
+      "homepage_hash": "home-19-1",
+      "pricing_page_hash": "price-19-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a031",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 642,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Thornbury for pharma",
+      "homepage_hash": "home-19-1",
+      "pricing_page_hash": "price-19-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a031",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 642,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Thornbury for pharma",
+      "homepage_hash": "home-19-1",
+      "pricing_page_hash": "price-19-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a031",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 642,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Thornbury for pharma",
+      "homepage_hash": "home-19-1",
+      "pricing_page_hash": "price-19-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a031",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 642,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Thornbury for pharma",
+      "homepage_hash": "home-19-1",
+      "pricing_page_hash": "price-19-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a032",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 868,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Underhill for publishing",
+      "homepage_hash": "home-20-1",
+      "pricing_page_hash": "price-20-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a032",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 868,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Underhill for publishing",
+      "homepage_hash": "home-20-1",
+      "pricing_page_hash": "price-20-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a032",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 868,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Underhill for publishing",
+      "homepage_hash": "home-20-1",
+      "pricing_page_hash": "price-20-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a032",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 868,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Underhill for publishing",
+      "homepage_hash": "home-20-1",
+      "pricing_page_hash": "price-20-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a032",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 868,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Underhill for publishing",
+      "homepage_hash": "home-20-1",
+      "pricing_page_hash": "price-20-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a032",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 868,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Underhill for publishing",
+      "homepage_hash": "home-20-1",
+      "pricing_page_hash": "price-20-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a032",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 868,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Underhill for publishing",
+      "homepage_hash": "home-20-1",
+      "pricing_page_hash": "price-20-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a032",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 868,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Underhill for publishing",
+      "homepage_hash": "home-20-1",
+      "pricing_page_hash": "price-20-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a033",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 693,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Vellamo for utilities",
+      "homepage_hash": "home-21-1",
+      "pricing_page_hash": "price-21-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a033",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 693,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Vellamo for utilities",
+      "homepage_hash": "home-21-1",
+      "pricing_page_hash": "price-21-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a033",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 693,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Vellamo for utilities",
+      "homepage_hash": "home-21-1",
+      "pricing_page_hash": "price-21-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a033",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 693,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Vellamo for utilities",
+      "homepage_hash": "home-21-1",
+      "pricing_page_hash": "price-21-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a033",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 589,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Vellamo for utilities",
+      "homepage_hash": "home-21-1",
+      "pricing_page_hash": "price-21-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a033",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 589,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Vellamo for utilities",
+      "homepage_hash": "home-21-1",
+      "pricing_page_hash": "price-21-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a033",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 589,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Vellamo for utilities",
+      "homepage_hash": "home-21-1",
+      "pricing_page_hash": "price-21-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a033",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 589,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Vellamo for utilities",
+      "homepage_hash": "home-21-1",
+      "pricing_page_hash": "price-21-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a034",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 146,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Westcliff for banking",
+      "homepage_hash": "home-22-1",
+      "pricing_page_hash": "price-22-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a034",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 146,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Westcliff for banking",
+      "homepage_hash": "home-22-1",
+      "pricing_page_hash": "price-22-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a034",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 146,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Westcliff for banking",
+      "homepage_hash": "home-22-1",
+      "pricing_page_hash": "price-22-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a034",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 146,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Westcliff for banking",
+      "homepage_hash": "home-22-1",
+      "pricing_page_hash": "price-22-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a034",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 146,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Westcliff for banking",
+      "homepage_hash": "home-22-1",
+      "pricing_page_hash": "price-22-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a034",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 146,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Westcliff for banking",
+      "homepage_hash": "home-22-1",
+      "pricing_page_hash": "price-22-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a034",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 146,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Westcliff for banking",
+      "homepage_hash": "home-22-1",
+      "pricing_page_hash": "price-22-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a034",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 146,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Terraflow",
+        "Datastream Pro",
+        "Rivalytics"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Westcliff for banking",
+      "homepage_hash": "home-22-1",
+      "pricing_page_hash": "price-22-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a035",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Yarrowfield for textiles",
+      "homepage_hash": "home-23-1",
+      "pricing_page_hash": "price-23-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a035",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Yarrowfield for textiles",
+      "homepage_hash": "home-23-1",
+      "pricing_page_hash": "price-23-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a035",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Yarrowfield for textiles",
+      "homepage_hash": "home-23-1",
+      "pricing_page_hash": "price-23-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a035",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Yarrowfield for textiles",
+      "homepage_hash": "home-23-1",
+      "pricing_page_hash": "price-23-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a035",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Yarrowfield for textiles",
+      "homepage_hash": "home-23-1",
+      "pricing_page_hash": "price-23-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a035",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Yarrowfield for textiles",
+      "homepage_hash": "home-23-1",
+      "pricing_page_hash": "price-23-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a035",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Yarrowfield for textiles",
+      "homepage_hash": "home-23-1",
+      "pricing_page_hash": "price-23-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a035",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 180,
+      "funding_stage": "series_a",
+      "funding_total_usd": 14000000,
+      "stack": [
+        "Pagelight",
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "it",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "marketing",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Yarrowfield for textiles",
+      "homepage_hash": "home-23-1",
+      "pricing_page_hash": "price-23-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a036",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 576,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Zephyr for logistics",
+      "homepage_hash": "home-24-1",
+      "pricing_page_hash": "price-24-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a036",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 576,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Zephyr for logistics",
+      "homepage_hash": "home-24-1",
+      "pricing_page_hash": "price-24-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a036",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 576,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Zephyr for logistics",
+      "homepage_hash": "home-24-1",
+      "pricing_page_hash": "price-24-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a036",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 866,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Zephyr for logistics",
+      "homepage_hash": "home-24-1",
+      "pricing_page_hash": "price-24-1"
+    },
+    "items": [
+      {
+        "kind": "job_post",
+        "observed_at": "2026-04-23",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "London, UK"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-04-28",
+        "title": "Staff Platform Engineer",
+        "department": "Engineering",
+        "location": "Austin, TX"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-05-04",
+        "title": "Engineering Manager",
+        "department": "Engineering",
+        "location": "London, UK"
+      },
+      {
+        "kind": "job_post",
+        "observed_at": "2026-05-09",
+        "title": "Senior Backend Engineer",
+        "department": null,
+        "location": "London, UK"
+      }
+    ]
+  },
+  {
+    "account_id": "a036",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 866,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Zephyr for logistics",
+      "homepage_hash": "home-24-1",
+      "pricing_page_hash": "price-24-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a036",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 866,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Zephyr for logistics",
+      "homepage_hash": "home-24-1",
+      "pricing_page_hash": "price-24-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a036",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 866,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Zephyr for logistics",
+      "homepage_hash": "home-24-1",
+      "pricing_page_hash": "price-24-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a036",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 866,
+      "funding_stage": "seed",
+      "funding_total_usd": 3000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro",
+        "Terraflow"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "operations",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Zephyr for logistics",
+      "homepage_hash": "home-24-1",
+      "pricing_page_hash": "price-24-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a037",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 929,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Ashcombe for robotics",
+      "homepage_hash": "home-25-1",
+      "pricing_page_hash": "price-25-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a037",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 929,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Ashcombe for robotics",
+      "homepage_hash": "home-25-1",
+      "pricing_page_hash": "price-25-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a037",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 929,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Ashcombe for robotics",
+      "homepage_hash": "home-25-1",
+      "pricing_page_hash": "price-25-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a037",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 929,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Ashcombe for robotics",
+      "homepage_hash": "home-25-1",
+      "pricing_page_hash": "price-25-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a037",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 929,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Ashcombe for robotics",
+      "homepage_hash": "home-25-1",
+      "pricing_page_hash": "price-25-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a037",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 929,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Ashcombe for robotics",
+      "homepage_hash": "home-25-1",
+      "pricing_page_hash": "price-25-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a037",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 929,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Ashcombe for robotics",
+      "homepage_hash": "home-25-1",
+      "pricing_page_hash": "price-25-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a037",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 929,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Modelform"
+      ],
+      "execs": [
+        {
+          "fn": "revops",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Ashcombe for robotics",
+      "homepage_hash": "home-25-1",
+      "pricing_page_hash": "price-25-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a038",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 259,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Brightwater for medical devices",
+      "homepage_hash": "home-26-1",
+      "pricing_page_hash": "price-26-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a038",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 259,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Brightwater for medical devices",
+      "homepage_hash": "home-26-1",
+      "pricing_page_hash": "price-26-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a038",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 259,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Brightwater for medical devices",
+      "homepage_hash": "home-26-1",
+      "pricing_page_hash": "price-26-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a038",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 259,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Brightwater for medical devices",
+      "homepage_hash": "home-26-1",
+      "pricing_page_hash": "price-26-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a038",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 259,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Brightwater for medical devices",
+      "homepage_hash": "home-26-1",
+      "pricing_page_hash": "price-26-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a038",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 259,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Brightwater for medical devices",
+      "homepage_hash": "home-26-1",
+      "pricing_page_hash": "price-26-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a038",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 259,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Brightwater for medical devices",
+      "homepage_hash": "home-26-1",
+      "pricing_page_hash": "price-26-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a038",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 259,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Podship",
+        "Datastream Pro"
+      ],
+      "execs": [
+        {
+          "fn": "data",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "customer_success",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Brightwater for medical devices",
+      "homepage_hash": "home-26-1",
+      "pricing_page_hash": "price-26-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a039",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 909,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Coldharbour for cloud infrastructure",
+      "homepage_hash": "home-27-1",
+      "pricing_page_hash": "price-27-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a039",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 909,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Coldharbour for cloud infrastructure",
+      "homepage_hash": "home-27-1",
+      "pricing_page_hash": "price-27-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a039",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 909,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Coldharbour for cloud infrastructure",
+      "homepage_hash": "home-27-1",
+      "pricing_page_hash": "price-27-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a039",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 909,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Coldharbour for cloud infrastructure",
+      "homepage_hash": "home-27-1",
+      "pricing_page_hash": "price-27-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a039",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 909,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Coldharbour for cloud infrastructure",
+      "homepage_hash": "home-27-1",
+      "pricing_page_hash": "price-27-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a039",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 909,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Coldharbour for cloud infrastructure",
+      "homepage_hash": "home-27-1",
+      "pricing_page_hash": "price-27-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a039",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 909,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Coldharbour for cloud infrastructure",
+      "homepage_hash": "home-27-1",
+      "pricing_page_hash": "price-27-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a039",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 909,
+      "funding_stage": "series_b",
+      "funding_total_usd": 45000000,
+      "stack": [
+        "Modelform",
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "finance",
+          "title": "VP Engineering"
+        },
+        {
+          "fn": "people",
+          "title": "VP Marketing"
+        }
+      ],
+      "tagline": "Coldharbour for cloud infrastructure",
+      "homepage_hash": "home-27-1",
+      "pricing_page_hash": "price-27-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a040",
+    "observed_at": "2026-02-20",
+    "state": {
+      "headcount": 725,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Dunmore for analytics",
+      "homepage_hash": "home-28-1",
+      "pricing_page_hash": "price-28-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a040",
+    "observed_at": "2026-03-20",
+    "state": {
+      "headcount": 725,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Dunmore for analytics",
+      "homepage_hash": "home-28-1",
+      "pricing_page_hash": "price-28-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a040",
+    "observed_at": "2026-04-17",
+    "state": {
+      "headcount": 725,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Dunmore for analytics",
+      "homepage_hash": "home-28-1",
+      "pricing_page_hash": "price-28-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a040",
+    "observed_at": "2026-05-15",
+    "state": {
+      "headcount": 725,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Dunmore for analytics",
+      "homepage_hash": "home-28-1",
+      "pricing_page_hash": "price-28-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a040",
+    "observed_at": "2026-06-12",
+    "state": {
+      "headcount": 725,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Dunmore for analytics",
+      "homepage_hash": "home-28-1",
+      "pricing_page_hash": "price-28-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a040",
+    "observed_at": "2026-07-10",
+    "state": {
+      "headcount": 725,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Dunmore for analytics",
+      "homepage_hash": "home-28-1",
+      "pricing_page_hash": "price-28-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a040",
+    "observed_at": "2026-07-31",
+    "state": {
+      "headcount": 725,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Dunmore for analytics",
+      "homepage_hash": "home-28-1",
+      "pricing_page_hash": "price-28-1"
+    },
+    "items": []
+  },
+  {
+    "account_id": "a040",
+    "observed_at": "2026-08-12",
+    "state": {
+      "headcount": 725,
+      "funding_stage": "series_c",
+      "funding_total_usd": 120000000,
+      "stack": [
+        "Warehowse"
+      ],
+      "execs": [
+        {
+          "fn": "engineering",
+          "title": "VP Engineering"
+        }
+      ],
+      "tagline": "Dunmore for analytics",
+      "homepage_hash": "home-28-1",
+      "pricing_page_hash": "price-28-1"
+    },
+    "items": []
+  }
+]
