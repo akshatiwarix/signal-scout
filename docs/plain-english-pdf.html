@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SignalScout — how it works (plain English)</title>
+<!--
+  Source for "SignalScout - how it works (plain English).pdf".
+
+  The stylesheet is Day 003's, reused verbatim through Day 004 and now Day 005, so the
+  five handouts read as one series: same title block, same numbered section spine, same
+  callout shapes, same small-caps table headers, same footer line. Do not restyle it —
+  matching the others is the point. Rendered with `browse pdf --format letter`; the
+  exact command is in CLAUDE.md.
+-->
+<style>
+  @page { size: letter; margin: 0.85in 0.95in 0.7in; }
+
+  :root{
+    --ink:#1a1a1a; --body:#2c2c2c; --muted:#6b7280; --faint:#9ca3af;
+    --rule:#d8dbe0; --hair:#e8eaed; --wash:#f5f6f8;
+    --green:#15803d; --amber:#b45309; --rose:#be123c; --violet:#6d28d9;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; color:var(--body);
+    font:11px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  code, pre{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}
+
+  h1{font-size:27px; line-height:1.1; margin:0 0 9px; color:var(--ink); letter-spacing:-.02em; font-weight:700}
+  .standfirst{font-size:13px; line-height:1.5; color:#4b5563; margin:0 0 7px}
+  .kicker{font-size:9.5px; color:var(--faint); margin:0 0 18px}
+
+  h2{
+    font-size:13.5px; color:var(--ink); font-weight:700; margin:26px 0 0;
+    padding-bottom:6px; border-bottom:1px solid var(--rule);
+  }
+  h2 + *{margin-top:11px}
+  h3{font-size:11.5px; color:var(--ink); font-weight:700; margin:16px 0 5px}
+  p{margin:0 0 9px}
+
+  /* Left-bar callout on a wash — used for asides that qualify a claim. */
+  .bar{
+    background:var(--wash); border-left:3px solid var(--ink);
+    padding:11px 14px; margin:13px 0;
+  }
+  .bar p:last-child, .box p:last-child, .quote p:last-child{margin-bottom:0}
+
+  /* Bordered box with a small-caps label — used for the one idea per section. */
+  .box{border:1px solid #cfd3d9; border-radius:3px; padding:13px 15px; margin:14px 0}
+  .label{
+    font-size:8.5px; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--faint); margin:0 0 7px; font-weight:600;
+  }
+  .quote{border:1px dashed #b9bec6; border-radius:3px; padding:14px 16px; margin:14px 0}
+
+  pre{
+    background:var(--wash); border-radius:3px; padding:11px 13px; margin:12px 0;
+    font-size:9.5px; line-height:1.55; color:#374151; white-space:pre; overflow:visible;
+  }
+  code{font-size:9.5px; background:#eef0f3; padding:.5px 3px; border-radius:2px; color:#374151}
+  pre code{background:none; padding:0; font-size:inherit}
+
+  table{width:100%; border-collapse:collapse; margin:12px 0; font-size:10.5px}
+  th{
+    text-align:left; font-size:8.5px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--faint); font-weight:600; padding:0 12px 5px 0; border-bottom:1px solid var(--rule);
+  }
+  td{padding:7px 12px 7px 0; border-bottom:1px solid var(--hair); vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  th:last-child, td:last-child{padding-right:0}
+
+  ol.steps{list-style:none; margin:12px 0 0; padding:0; counter-reset:step}
+  ol.steps li{position:relative; padding:0 0 11px 25px; counter-increment:step}
+  ol.steps li::before{
+    content:counter(step); position:absolute; left:0; top:1px;
+    width:15px; height:15px; border-radius:50%; background:var(--ink); color:#fff;
+    font-size:8.5px; font-weight:600; text-align:center; line-height:15px;
+  }
+  ul{margin:9px 0; padding-left:16px}
+  li{margin-bottom:5px}
+
+  .g{color:var(--green); font-weight:600}
+  .a{color:var(--amber); font-weight:600}
+  .r{color:var(--rose); font-weight:600}
+  .v{color:var(--violet); font-weight:600}
+  strong{color:var(--ink); font-weight:600}
+  em{color:inherit}
+
+  .foot{
+    margin-top:26px; padding-top:11px; border-top:1px solid var(--rule);
+    font-size:9px; color:var(--faint);
+  }
+  h2, h3{break-after:avoid; page-break-after:avoid}
+  .box, .bar, .quote, pre, table{break-inside:avoid; page-break-inside:avoid}
+</style>
+</head>
+<body>
+<h1>SignalScout</h1>
+<p class="standfirst">A tool that works out which accounts are worth contacting <em>today</em> — by comparing what a company looked like last month with what it looks like now, and letting what it finds go stale on purpose.</p>
+<p class="kicker">A plain-English guide — what it does, how to drive it, and how to explain it to someone else.</p>
+
+<div class="bar">
+  <p><strong>Open it here:</strong> signal-scout-weld.vercel.app — nothing to install, no sign-up, no API key. It loads with 40 companies already ranked on screen.</p>
+</div>
+
+<h2>1. The one-sentence version</h2>
+<p>It takes plain snapshots of companies — headcount, funding stage, which tools they use, who their leaders are, what their homepage says, which jobs they are advertising — taken on different dates. It compares each snapshot with the one before it, works out what changed, decides how much that change is still worth given how long ago it happened, and puts your account list in the order you should work through it.</p>
+
+<div class="box">
+  <p class="label">The whole point</p>
+  <p>Nothing in the input says an event happened. There is no &ldquo;funding round&rdquo; field, no &ldquo;they had layoffs&rdquo; flag, not even the word <em>signal</em>. Every single thing on the board was worked out by comparing two snapshots — and every number can be checked with a pocket calculator.</p>
+</div>
+
+<h2>2. The problem it fixes</h2>
+<p>You have seen a tool that says <em>&ldquo;Acme just raised a Series B — reach out!&rdquo;</em> That is a feed: a list of things that happened, newest first. It cannot answer the question you actually have on Monday morning, which is <strong>who do I call today</strong>. Four reasons.</p>
+
+<table>
+  <tr><th>What goes wrong</th><th>Why it happens</th></tr>
+  <tr><td><strong>Nothing goes out of date</strong></td><td>A round from February still sits there in October, styled like it happened yesterday. But the reason a round matters is that money <em>just</em> arrived. Six months on, the budget has an owner and a plan.</td></tr>
+  <tr><td><strong>Whoever posts most wins</strong></td><td>A company that shipped four small updates outranks one that hired a CTO and raised money, because the score is a running total.</td></tr>
+  <tr><td><strong>Fit and timing get mashed together</strong></td><td>Two accounts both score 60. One is a perfect customer where nothing is happening; the other is on fire but you can never sell to them. Same number, opposite instructions.</td></tr>
+  <tr><td><strong>Somebody else did the thinking</strong></td><td>A vendor already decided this was &ldquo;a funding round&rdquo;. You never see the working, so you cannot tell a real signal from a guess.</td></tr>
+</table>
+
+<h2>3. It starts one step earlier: observations, not events</h2>
+<p>Instead of events, it takes <strong>observations</strong> — what a crawler could plausibly have seen about a company on a given day.</p>
+
+<div class="quote">
+  <p>On <strong>15 May</strong>, Cobalt Ledger had 74 staff, was at seed stage with $4.5M raised, used Warehowse and Modelform, had a CTO and a VP Finance, and its homepage said &ldquo;Ledgers for embedded finance&rdquo;.</p>
+</div>
+
+<p>That is all. No interpretation. Then it looks at the next snapshot:</p>
+
+<div class="quote">
+  <p>On <strong>12 June</strong>, the same company was at Series A with $26M raised, and had 88 staff.</p>
+</div>
+
+<p>Nobody told the tool a funding round happened. It worked that out, because the stage moved forward and the total went up. It found the headcount jump the same way. <strong>Ten different kinds of change</strong> are detected like this, and two of them are bad news.</p>
+
+<h2>4. Signals lose value as they age</h2>
+<p>Each change starts at a weight and then fades. The speed is set by a <strong>half-life</strong> — how long until it is worth half as much. These are the numbers the tool opens with:</p>
+
+<table>
+  <tr><th>Kind of change</th><th>Half-life</th><th>Why that number</th></tr>
+  <tr><td>Money — funding</td><td>60 days</td><td>Budget lands, then gets spent over two quarters</td></tr>
+  <tr><td>People — a leader arrives or leaves</td><td>45 days</td><td>New leaders rebuild their toolset in their first 90 days</td></tr>
+  <tr><td>Growth — hiring, headcount</td><td>30 days</td><td>Hiring intent goes cold fast</td></tr>
+  <tr><td>Technology — tools in and out</td><td>30 days</td><td>The window shuts when they pick a replacement</td></tr>
+  <tr><td>Market — launches, repositioning</td><td>21 days</td><td>A launch is news for about three weeks</td></tr>
+</table>
+
+<p>So Cobalt Ledger&rsquo;s round, 89 days old by the time you look at it, is past one half-life and a bit:</p>
+
+<div class="quote">
+  <p><strong>25 points &times; &frac12;<sup>(89 &divide; 60)</sup> = 9 points</strong></p>
+</div>
+
+<p>That is the number on the board, and the app prints that sum next to the row so you can check it. Past <strong>four half-lives</strong> a change is dropped completely rather than shown as a 1-point ghost: a funding round stops counting after 240 days, a product launch after 84.</p>
+
+<h2>5. The clever bit: two different clocks</h2>
+<p>This is the distinction that makes the ageing believable.</p>
+
+<table>
+  <tr><th>Kind of thing</th><th>Ages from</th><th>Because</th></tr>
+  <tr><td>A change of state — funding, headcount, a new leader, a tool swapped</td><td><strong>when it changed</strong></td><td>It happened once. Nothing can make it fresh again.</td></tr>
+  <tr><td>A pattern of arrivals — job posts, product releases</td><td><strong>the newest evidence</strong></td><td>A company that posted four engineering roles in June and is <em>still posting</em> in August is not an old signal. It is an ongoing one.</td></tr>
+</table>
+
+<p>One sentence of difference, and it is why a hiring surge can sit near the top of the board for two months while a round from the same week fades away underneath it.</p>
+
+<div class="bar">
+  <p><strong>An ongoing pattern does eventually go cold</strong> — but only when the posting actually stops. Once a company drops below its own threshold (say, four posts in 45 days), the surge stops being refreshed and starts ageing from its last real post. &ldquo;Still hot&rdquo; has to mean <em>still happening</em>, or one straggling job ad would keep a dead surge alive forever.</p>
+</div>
+
+<h2>6. It never claims something is fresher than it is</h2>
+<p>Crawlers miss things. One company in the demo was seen on 15 May and then not again until 12 August — an <strong>89-day hole</strong>. When it reappeared, it had raised a round.</p>
+<p>When did that happen? <strong>Nobody knows.</strong> Somewhere in those 89 days.</p>
+<p>The tool assumes the <strong>earliest</strong> possible date, so the round is treated as 89 days old and already half-faded on the day it is discovered. The row says so: <em>&ldquo;dated conservatively inside an 89-day window&rdquo;</em>.</p>
+
+<div class="box">
+  <p class="label">Which way to be wrong</p>
+  <p>A tool that guesses &ldquo;probably last week&rdquo; will eventually have you phone someone about something that happened three months ago, and that is the one mistake that makes a rep stop trusting the tool for good. Being a bit too pessimistic costs you nothing. Being optimistic costs you your credibility.</p>
+</div>
+
+<h2>7. Why loud companies do not take over the board</h2>
+<p>Two rules stop volume beating substance.</p>
+<p><strong>Diminishing returns.</strong> Within a family, the biggest change counts fully, the second counts half, the third a quarter. Four product launches are worth 8&nbsp;+&nbsp;4&nbsp;+&nbsp;2&nbsp;+&nbsp;1, not 32.</p>
+<p><strong>A ceiling per family.</strong> Each family can only ever contribute so much, and the five ceilings always add up to 100. How they are shared out depends on what you are selling — that is what the three presets change:</p>
+
+<table>
+  <tr><th>Family</th><th>Displacement motion</th><th>Growth motion</th><th>Budget motion</th></tr>
+  <tr><td>Money</td><td>15</td><td>20</td><td><strong>40</strong></td></tr>
+  <tr><td>People</td><td>20</td><td><strong>30</strong></td><td>22</td></tr>
+  <tr><td>Growth</td><td>15</td><td><strong>30</strong></td><td>16</td></tr>
+  <tr><td>Technology</td><td><strong>40</strong></td><td>12</td><td>12</td></tr>
+  <tr><td>Market</td><td>10</td><td>8</td><td>10</td></tr>
+</table>
+
+<p>If you sell by replacing a competitor, a competitor leaving somebody&rsquo;s toolset is the most interesting thing that can happen, so the displacement preset spends 40 of its 100 points there. If you sell to fast-growing teams, hiring matters more.</p>
+<p>In the demo there is a company that shipped five things in five weeks. Its Market score hits the ceiling of 10 and the rest is listed as <em>clipped by the family cap</em>. It sits mid-board at 10 points, behind a company that hired an engineering leader — which is where a business whose only news is its own announcements belongs.</p>
+
+<div class="bar">
+  <p><strong>Nothing in the scoring divides anything.</strong> Because the ceilings are built to add to 100, a score is already out of 100 with no rescaling step. That is not a detail for its own sake: it means there is no way for the arithmetic to produce a nonsense number. And <strong>reaching 100 is effectively impossible</strong> — it would need all five families firing at full strength on the same day. The best account on the demo board sits at <strong>28</strong>.</p>
+</div>
+
+<h2>8. Bad news counts against you</h2>
+<p>Most signal tools only know good news, which makes them hype meters. Two of the ten changes here are negative: <span class="r">a company shedding staff</span>, and <span class="r">a competitor appearing in their toolset</span>. Negatives get <strong>no</strong> diminishing returns — a second round of layoffs is not less bad than the first, so it counts in full.</p>
+<p>The scale runs down to <strong>&minus;25</strong>, not to zero. That matters: a company that just cut 30% of its staff should rank <em>below</em> a company where nothing at all has happened, and a scale that stops at zero cannot say that. On the demo board a very strong-fit retailer sits at <span class="r">&minus;12</span>, beneath a dozen companies nobody has any news about.</p>
+
+<div class="quote">
+  <p>The neatest demonstration in the product: two companies, identical in every way, on the same day. One <strong>drops</strong> a competitor from its toolset and gains <span class="g">+22</span>. The other <strong>picks up</strong> the same competitor and loses <span class="r">&minus;14</span>. The gap is deliberate — a door opening is worth more to you than a rival&rsquo;s win costs you, because one is something you can act on this week and the other is a fact you have to live with.</p>
+</div>
+
+<h2>9. Fit and timing stay separate</h2>
+<p>Every company also carries an <strong>ICP fit</strong> score — how well they match the kind of customer you want. That number comes from a different tool (day 001 of this challenge) and this one never recalculates it, and never mixes it into the timing score.</p>
+<p>That refusal is deliberate. Multiply the two and you get a number that cannot tell these apart:</p>
+
+<table>
+  <tr><th></th><th>Nothing happening</th><th>Plenty happening</th></tr>
+  <tr><td><strong>Good fit</strong></td><td>Nurture — a waiting list, not a bin</td><td><span class="g">Act now</span></td></tr>
+  <tr><td><strong>Poor fit</strong></td><td>Ignore</td><td><span class="a">Loud, wrong company</span></td></tr>
+</table>
+
+<p>The second tab of the app plots exactly that. The bottom-right box is the whole argument: in the demo it holds a robotics company with a signal score of 18 and mediocre fit. On a blended score it would look like a priority. Here it is visibly the wrong company having an interesting month.</p>
+
+<div class="bar">
+  <p><strong>One override.</strong> A company going backwards is never a nurture candidate however well it fits, so contracting accounts sort to the top of their box with a red tag on them.</p>
+</div>
+
+<h2>10. Six states, and two that look identical but are not</h2>
+<p>Each account gets a label worked out from how its score has moved over the last fortnight.</p>
+
+<table>
+  <tr><th>Label</th><th>What it means</th></tr>
+  <tr><td><span class="g">Rising</span></td><td>Worth more than it was two weeks ago</td></tr>
+  <tr><td><span class="a">Cooling</span></td><td>Still active, but fading</td></tr>
+  <tr><td>Steady</td><td>Unchanged</td></tr>
+  <tr><td><span class="r">Contracting</span></td><td>Net negative — going the wrong way</td></tr>
+  <tr><td>Stale</td><td>Had signals once; every one is now too old to count</td></tr>
+  <tr><td>Quiet</td><td>Nothing has ever fired, in the whole period watched</td></tr>
+</table>
+
+<div class="box">
+  <p class="label">Why the last two are separate</p>
+  <p>Most tools show both as an empty row. But &ldquo;this went cold four months ago&rdquo; is a lapsed opportunity — something happened and you missed it. &ldquo;We have watched since February and nothing has ever happened&rdquo; is a company to keep half an eye on. Opposite situations, opposite actions, so they get opposite labels.</p>
+</div>
+
+<h2>11. What you are looking at on screen</h2>
+<p>Left panel: the settings — presets, the five ceilings and half-lives, the weight of each kind of change, the thresholds, which job functions you sell to, and which tools count as competitors.</p>
+<p>Middle, along the top: the <strong>date slider</strong>. Four counters underneath it — how many accounts, how many live signals, how many are over the act-now line, how many are going backwards.</p>
+<p>Then the board. Each row shows fit, the score out of 100, a bar with a mark on it for the act-now line, a coloured strip showing which families the score came from, the state label, and a small line chart of the last six months. Click any row to open it up: every signal with its arithmetic spelled out, and underneath, everything the tool <strong>considered and threw away</strong> — too old, over a ceiling, or not relevant to you — each with the reason.</p>
+
+<h2>12. How to drive it in two minutes</h2>
+<ol class="steps">
+  <li>Read the top five rows. That is the answer to &ldquo;who today&rdquo;.</li>
+  <li>Click the top row open. Check the arithmetic against the claim; that is the trust-building step and it takes fifteen seconds.</li>
+  <li><strong>Drag the date slider back to June.</strong> The board is genuinely the board as it would have looked in June — not filtered, recalculated. Watch a funding round fire, halve, and disappear while a hiring surge stays hot beside it. This is the fastest way to see the whole idea at once.</li>
+  <li>Switch preset from Displacement to Growth. Same six months, different priority order, because you are now asking a different question.</li>
+  <li>Open the <em>Fit &times; signal</em> tab and look at the bottom-right box — the loud companies you should not phone.</li>
+  <li>Export <code>signals.csv</code> if you want the working in a spreadsheet.</li>
+</ol>
+
+<h2>13. Is a model writing these answers?</h2>
+<p><strong>No. Not one number on the board has been near an AI model.</strong></p>
+<p>There is an optional box where you can type <em>&ldquo;we sell observability to Series B data teams, I care most when they lose an engineering leader or drop a competitor&rdquo;</em>, and a language model turns that sentence into settings: which families matter, which tools are competitors, which job functions you sell to. Those settings appear in the panel for you to check and change before anything is scored.</p>
+
+<div class="box">
+  <p class="label">The rule</p>
+  <p>The model is allowed to configure the ruler. It is never allowed to do the measuring. If a model were deciding which changes counted, you would have to take the board on trust — and the one thing this project is trying to show is that you do not have to.</p>
+</div>
+
+<p>Turn the key off entirely and everything above still works. The board, the slider, the settings, the exports: all arithmetic, no network.</p>
+
+<h2>14. What it deliberately does not do</h2>
+<ul>
+  <li><strong>It does not guess at job titles it does not recognise.</strong> A posting it cannot place is reported as unplaced rather than filed under Engineering, because a wrong guess quietly inflates the score of every company that advertises unusual titles.</li>
+  <li><strong>It does not invent dates.</strong> See section 6.</li>
+  <li><strong>It does not hide its rejects.</strong> Every account lists what was considered and thrown out, with the reason — including a competitor leaving a toolset that turned out to be a tool you partner with rather than compete against.</li>
+  <li><strong>It does not watch live websites.</strong> This is about what to do with observations once you have them, not about collecting them.</li>
+  <li><strong>It does not remember anything.</strong> There is no database. Time is simulated by the slider, which is exactly why every number is reproducible.</li>
+</ul>
+
+<h2>15. The data is invented, on purpose</h2>
+<p>40 companies, all fictional. Every web address ends in <code>.example</code>, a suffix that can never be a real site, and every tool name is made up. Publishing plausible-looking headcounts and funding figures attached to real company names would be worse than clearly-labelled fiction.</p>
+<p>The mix is designed rather than random. Ten of the companies exist to make one specific rule visible: the loud one that gets capped, the perfect-fit silent one, the strong-fit one that is shrinking, the one with the 89-day hole, the one first seen halfway through the period, and the pair that are identical except for which way the competitor moved.</p>
+
+<h2>16. Explaining it to someone else in 30 seconds</h2>
+<div class="quote">
+  <p>Signal tools give you a feed of things that happened, which cannot tell you who to phone this morning: a funding round from February looks the same as one from last week, the company that posts most often floats to the top, and a good-fit-but-quiet account is impossible to tell apart from a busy company you could never sell to. This one starts from plain snapshots with no events in them at all, works out the changes itself, and then lets each one fade at a speed that matches how long that kind of news stays useful. It shows the arithmetic for every number, tells you what it threw away and why, and keeps &ldquo;are they worth selling to&rdquo; and &ldquo;is now the moment&rdquo; as two separate numbers, because they are two separate questions.</p>
+</div>
+
+<h2>17. Quick answers</h2>
+
+<h3>Why is the best account only scoring 28 out of 100?</h3>
+<p>Because 100 would mean all five families firing at full strength at once, which no real company does. Read the number as a ranking position, not a percentage. The act-now line at 18 is the mark that matters.</p>
+
+<h3>Why did an account&rsquo;s score go <em>up</em> when nothing happened?</h3>
+<p>Bad news fading. If a company had layoffs four months ago and nothing since, that penalty is wearing off, which is correct — you should not hold it against them forever.</p>
+
+<h3>Why does a change look older than the date it was spotted?</h3>
+<p>Because a change is dated to the earliest moment it could have happened, not to the day the crawler noticed. If the previous look was a fortnight earlier, the change is treated as a fortnight old.</p>
+
+<h3>Can I change the half-lives and ceilings?</h3>
+<p>Yes, all of them, in the left panel, and the board updates as you type. If you set the ceilings so they no longer add to 100, the board honestly says &ldquo;72 out of 140&rdquo; rather than quietly rescaling.</p>
+
+<h3>Can I use my own companies?</h3>
+<p>Yes — open &ldquo;bring your own observations&rdquo; and paste them in. You need at least two snapshots of the same company; one snapshot has nothing to compare against, so nothing fires. A rejected paste leaves the board you were looking at untouched, and names the field it did not like.</p>
+
+<h3>Do I need an account or an API key?</h3>
+<p>Neither. It loads with 40 companies already ranked.</p>
+
+<h3>Is this ready to put in front of a customer?</h3>
+<p>It is a demonstration, on purpose. The detection, the ageing and the scoring are real and tested — 127 tests, plus a sweep that checks about 137,000 statements across every date the slider can reach. What is missing is the plumbing: real websites to watch, somewhere to store history, logins, and an alert when an account crosses your line.</p>
+
+<p class="foot">SignalScout — day 005 of a 100-day build challenge. Live at signal-scout-weld.vercel.app &middot; Synthetic data throughout &middot; Written for a non-technical reader.</p>
+
+</body>
+</html>

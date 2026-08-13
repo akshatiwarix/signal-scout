@@ -137,15 +137,30 @@ Two rules stop volume beating substance.
 second counts half, the third a quarter, and so on. Four product launches are worth
 8 + 4 + 2 + 1, not 32.
 
-**A ceiling per family.** Each family can only ever contribute so much: Money 25,
-People 25, Growth 20, Technology 20, Market 10. In the demo there is a company that
-shipped five things in five weeks; its Market score hits the ceiling of 10 and the
-rest is listed as *clipped by the family cap*. It sits mid-board, which is where a
-company whose only news is its own announcements belongs.
+**A ceiling per family.** Each family can only ever contribute so much, and the five
+ceilings always add up to 100. How they are shared out is what the three presets
+change, because it depends on what you sell:
 
-Add those five ceilings up and you get 100, which is why a score is out of 100
-without any rescaling. Nothing in the scoring does any division at all — which
-means there is no way for the maths to produce a nonsense number.
+| Family | Displacement motion | Growth motion | Budget motion |
+|---|---|---|---|
+| Money | 15 | 20 | **40** |
+| People | 20 | **30** | 22 |
+| Growth | 15 | **30** | 16 |
+| Technology | **40** | 12 | 12 |
+| Market | 10 | 8 | 10 |
+
+If you sell by replacing a competitor, a competitor leaving somebody's toolset is the
+most interesting thing that can happen, so the displacement preset spends 40 of its
+100 points there. If you sell to fast-growing teams, hiring matters more.
+
+In the demo there is a company that shipped five things in five weeks. Its Market
+score hits the ceiling of 10 and the rest is listed as *clipped by the family cap*.
+It sits mid-board at 10 points, behind a company that hired an engineering leader —
+which is where a business whose only news is its own announcements belongs.
+
+Because the ceilings are built to add to 100, a score is already out of 100 with no
+rescaling step. Nothing in the scoring does any division at all — which means there
+is no way for the maths to produce a nonsense number.
 
 **Reaching 100 is effectively impossible**, and that is fine. It would need every
 family firing at full strength on the same day. The best account on a healthy board

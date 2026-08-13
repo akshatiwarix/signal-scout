@@ -298,6 +298,13 @@ to confirm it has teeth: inverting the decay exponent produces 1,619 violations.
 - **Cross-account correlation** — one competitor losing three customers in a month
   is a stronger signal than any of the three alone.
 
+## Further reading
+
+- [`docs/plain-english-guide.md`](docs/plain-english-guide.md) — the whole system with no
+  code in it, for a reader who wants the reasoning rather than the implementation.
+- `SignalScout - how it works (plain English).pdf` — the printed handout, one directory up
+  alongside the Day 001–004 guides.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

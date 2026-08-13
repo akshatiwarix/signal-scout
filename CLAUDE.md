@@ -216,6 +216,36 @@ one signal expiring in the same step as another arriving. Fault-injecting an inv
 decay exponent produces 1,619 violations, which is how the property was confirmed to
 have teeth.
 
+## The two guides
+
+Two plain-English write-ups, not duplicates of each other:
+
+- `docs/plain-english-guide.md` — prose, linked from the README, for a reader already
+  in the repo.
+- `docs/plain-english-pdf.html` — source for the printed handout that sits beside Days
+  001–004 in `../` as `SignalScout - how it works (plain English).pdf`. It reuses Day
+  003's stylesheet **verbatim** (title block, numbered section spine, callout shapes,
+  small-caps table headers, footer line) so the five read as one series. Do not restyle
+  it; matching the others is the point. Regenerate with:
+
+```bash
+browse goto "file://$(pwd)/docs/plain-english-pdf.html"
+browse pdf /private/tmp/guide.pdf --format letter --print-background \
+  --footer-template '<div style="width:100%;text-align:center;font:9px sans-serif;color:#9ca3af"><span class="pageNumber"></span> of <span class="totalPages"></span></div>' \
+  --margin-top 0.85in --margin-bottom 0.7in --margin-left 0.95in --margin-right 0.95in
+cp /private/tmp/guide.pdf "../SignalScout - how it works (plain English).pdf"
+```
+
+`browse pdf` refuses paths outside the repo and `/private/tmp`, which is why it renders
+to tmp and then copies.
+
+**Both guides quote live numbers** — the 89-day/9-point funding example, the +22/−14
+displacement pair, the top-of-board 28, the family caps per preset. Retune a preset or
+move a trap in the dataset and both documents are wrong until they are updated. The caps
+in particular are **per preset**, not global: the app opens on Displacement motion
+(Money 15, People 20, Growth 15, Technology 40, Market 10), not on the 25/25/20/20/10
+set used in the engine's own test fixtures.
+
 ## Scope boundaries
 
 Do not add these — each belongs to a specific later day: ICP fit scoring (Day 001),
