@@ -5,10 +5,13 @@ import { useDeferredValue, useMemo, useState } from "react";
 import { CLIENT_ACCOUNTS, CLIENT_OBSERVATIONS } from "@/data/client";
 import { DEFAULT_WATCHLIST } from "@/data/presets";
 import { boardAt, prepareBoard } from "@/lib/signals";
+import { boardJson, signalsCsv } from "@/lib/signals/export";
 import type { Account, Iso, Observation, Watchlist } from "@/lib/signals/types";
 
 import { AsOfScrubber } from "./AsOfScrubber";
 import { BoardSummary, BoardTable } from "./BoardTable";
+import { PastePanel } from "./PastePanel";
+import { QuadrantView } from "./QuadrantView";
 import { WatchlistPanel } from "./WatchlistPanel";
 
 /**
@@ -27,6 +30,20 @@ import { WatchlistPanel } from "./WatchlistPanel";
  * - `boardAt` re-runs on every **date** change, which is cheap: detections are already derived,
  *   so this is identity, decay, scoring and ranking over a handful of signals per account.
  */
+
+type Dataset = { accounts: Account[]; observations: Observation[] };
+
+const BUNDLED: Dataset = { accounts: CLIENT_ACCOUNTS, observations: CLIENT_OBSERVATIONS };
+
+function download(name: string, contents: string, type: string): void {
+  const url = URL.createObjectURL(new Blob([contents], { type }));
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = name;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
 export function BoardConsole({
   firstCrawl,
   lastCrawl,
@@ -42,10 +59,8 @@ export function BoardConsole({
 }) {
   const [watchlist, setWatchlist] = useState<Watchlist>(DEFAULT_WATCHLIST);
   const [asOf, setAsOf] = useState<Iso>(defaultAsOf);
-  const [dataset, setDataset] = useState<{ accounts: Account[]; observations: Observation[] }>({
-    accounts: CLIENT_ACCOUNTS,
-    observations: CLIENT_OBSERVATIONS,
-  });
+  const [dataset, setDataset] = useState<Dataset>(BUNDLED);
+  const [view, setView] = useState<"board" | "quadrant">("board");
 
   // The slider fires faster than a full board rebuild; deferring keeps the thumb attached to
   // the pointer while the table catches up a frame later.
@@ -58,6 +73,24 @@ export function BoardConsole({
 
   const board = useMemo(() => boardAt(prepared, deferredAsOf), [prepared, deferredAsOf]);
 
+  const bounds = useMemo(() => {
+    if (dataset === BUNDLED) return { first: firstCrawl, last: lastCrawl, crawls: crawlDates };
+    const dates = [...new Set(dataset.observations.map((observation) => observation.observed_at))].sort();
+    return {
+      first: dates[0] ?? firstCrawl,
+      last: dates[dates.length - 1] ?? lastCrawl,
+      crawls: dates,
+    };
+  }, [dataset, firstCrawl, lastCrawl, crawlDates]);
+
+  function adopt(next: Dataset) {
+    const dates = [...new Set(next.observations.map((observation) => observation.observed_at))].sort();
+    setDataset(next);
+    // Land on the most recent thing the pasted data knows about, or the scrubber would open
+    // outside its own range.
+    setAsOf(dates[dates.length - 1] ?? defaultAsOf);
+  }
+
   return (
     <div className="flex flex-col gap-5 lg:flex-row">
       <WatchlistPanel watchlist={watchlist} parseAvailable={parseAvailable} onChange={setWatchlist} />
@@ -65,40 +98,77 @@ export function BoardConsole({
       <div className="flex min-w-0 flex-1 flex-col gap-4">
         <AsOfScrubber
           asOf={asOf}
-          first={firstCrawl}
-          last={lastCrawl}
-          crawls={crawlDates}
+          first={bounds.first}
+          last={bounds.last}
+          crawls={bounds.crawls}
           onChange={setAsOf}
         />
         <BoardSummary board={board} />
-        <BoardTable board={board} />
+
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex gap-1" role="tablist">
+            {(["board", "quadrant"] as const).map((tab) => (
+              <button
+                key={tab}
+                type="button"
+                role="tab"
+                aria-selected={view === tab}
+                onClick={() => setView(tab)}
+                className={`rounded px-2.5 py-1 text-xs ${
+                  view === tab
+                    ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900"
+                    : "text-slate-600 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800"
+                }`}
+              >
+                {tab === "board" ? "Ranked board" : "Fit × signal"}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex gap-2">
+            <button
+              type="button"
+              onClick={() => download(`board-${board.as_of}.json`, boardJson(board), "application/json")}
+              className="rounded border border-slate-200 px-2 py-1 text-[11px] text-slate-600 hover:border-slate-400 dark:border-slate-700 dark:text-slate-400"
+            >
+              board.json
+            </button>
+            <button
+              type="button"
+              onClick={() => download(`signals-${board.as_of}.csv`, signalsCsv(board), "text/csv")}
+              className="rounded border border-slate-200 px-2 py-1 text-[11px] text-slate-600 hover:border-slate-400 dark:border-slate-700 dark:text-slate-400"
+            >
+              signals.csv
+            </button>
+          </div>
+        </div>
+
+        {view === "board" ? <BoardTable board={board} /> : <QuadrantView board={board} />}
+
         <p className="text-[11px] text-slate-500">
           {board.rows.length} accounts scored out of {board.denominator}. A total near the
           denominator would need every family firing at once, which nothing real does — the top of
           a healthy board sits around a third of it.
         </p>
-        <ObservationsNote onReplace={setDataset} />
+
+        <PastePanel
+          watchlist={watchlist}
+          asOf={asOf}
+          replaced={dataset !== BUNDLED}
+          onAccept={adopt}
+          onReset={() => {
+            setDataset(BUNDLED);
+            setAsOf(defaultAsOf);
+          }}
+        />
+
+        <p className="text-[11px] text-slate-400">
+          {dataset === BUNDLED ? "Synthetic dataset" : "Your pasted dataset"}:{" "}
+          {dataset.accounts.length} accounts, {dataset.observations.length} observations across{" "}
+          {bounds.crawls.length} crawls. Every event on this board was derived by comparing two of
+          them — the input contains no events.
+        </p>
       </div>
     </div>
-  );
-}
-
-/**
- * Kept minimal here; the paste panel lands in the next commit. What matters is that replacing
- * the dataset goes through the same `prepareBoard` call as the bundled one, so pasted data has
- * no privileged path.
- */
-function ObservationsNote({
-  onReplace,
-}: {
-  onReplace: (next: { accounts: Account[]; observations: Observation[] }) => void;
-}) {
-  void onReplace;
-  return (
-    <p className="text-[11px] text-slate-400">
-      Synthetic dataset: 40 accounts, {CLIENT_OBSERVATIONS.length} observations across{" "}
-      {new Set(CLIENT_OBSERVATIONS.map((observation) => observation.observed_at)).size} crawls. Every
-      event on this board was derived by comparing two of them — the input contains no events.
-    </p>
   );
 }
