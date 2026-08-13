@@ -1,26 +1,66 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+ * `dark:` responds to the OS setting *and* to a `.dark` class on <html>, so dark mode can be
+ * exercised deliberately from a console instead of only by changing system preferences.
+ */
+@custom-variant dark {
+  @media (prefers-color-scheme: dark) {
+    @slot;
+  }
+  &:where(.dark, .dark *) {
+    @slot;
+  }
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/*
+ * The as-of slider is the main control on the page, so it gets a real thumb rather than the
+ * browser default: it is dragged continuously and needs to feel like a scrubber.
+ */
+input[type="range"].scrubber {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: ew-resize;
+}
+
+input[type="range"].scrubber::-webkit-slider-runnable-track {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: color-mix(in oklch, currentColor 12%, transparent);
+}
+
+input[type="range"].scrubber::-moz-range-track {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: color-mix(in oklch, currentColor 12%, transparent);
+}
+
+input[type="range"].scrubber::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -0.3rem;
+  height: 1.1rem;
+  width: 1.1rem;
+  border-radius: 9999px;
+  border: 2px solid white;
+  background: oklch(0.55 0.2 264);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.3);
+}
+
+input[type="range"].scrubber::-moz-range-thumb {
+  height: 1.1rem;
+  width: 1.1rem;
+  border-radius: 9999px;
+  border: 2px solid white;
+  background: oklch(0.55 0.2 264);
 }
