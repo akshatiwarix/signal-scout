@@ -10,7 +10,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "sweep": "vite-node scripts/sweep.mts",
+    "sweep": "vite-node -c vitest.config.mts scripts/sweep.mts",
     "generate:dataset": "node --experimental-strip-types scripts/generate-dataset.mts"
   },
   "dependencies": {
