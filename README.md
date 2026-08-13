@@ -3,7 +3,7 @@
 Derives account events by comparing dated observations of the same company, ages
 them, and ranks accounts by how timely outreach is right now.
 
-[Live Demo](#) · [Demo GIF](#demo)
+[Live Demo](https://signal-scout-weld.vercel.app) · [Demo GIF](#demo)
 
 ## Why I Built This
 
