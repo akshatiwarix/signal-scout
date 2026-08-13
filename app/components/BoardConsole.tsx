@@ -164,9 +164,13 @@ export function BoardConsole({
 
         <p className="text-[11px] text-slate-400">
           {dataset === BUNDLED ? "Synthetic dataset" : "Your pasted dataset"}:{" "}
-          {dataset.accounts.length} accounts, {dataset.observations.length} observations across{" "}
-          {bounds.crawls.length} crawls. Every event on this board was derived by comparing two of
-          them — the input contains no events.
+          {dataset.accounts.length} account{dataset.accounts.length === 1 ? "" : "s"},{" "}
+          {dataset.observations.length} observation{dataset.observations.length === 1 ? "" : "s"}{" "}
+          across {bounds.crawls.length} crawl{bounds.crawls.length === 1 ? "" : "s"}. Every event on
+          this board was derived by comparing two of them — the input contains no events.
+          {bounds.crawls.length < 2
+            ? " With a single crawl there is nothing to compare, so nothing fires — which is the cold-start rule, not a bug."
+            : ""}
         </p>
       </div>
     </div>
